@@ -760,14 +760,17 @@
                                     "Ordner": [
 					
                                         {
-                                            "Titel": "Blattschnitte",
+                                            "Titel": "test",
                                             "isFolderSelectable": false,
+					    "isVisibleInTree": false,
                                             "Layer": [
                                                 {
-                                                    "id": "blatt-k5etrs-wms",
-                                                    "visibility": false,
-                                                    "name": "Blattschnitte Karte von Berlin 1:5.000 ETRS89"
-                                                },
+							"id": "StorkStr97_8_OG_Fl",							
+							"visibility": true,
+							"styleId": "StorkStr97.Geschoss.FL",                        
+							"minScale": "164",
+							"maxScale": "166"
+						},
                                                 {
                                                     "id": "blatt-k5soldner-wms",
                                                     "visibility": false,
@@ -801,8 +804,7 @@
 			"Layer": [
                                 {
 				"id": "StorkStr97_8_OG_Fl",
-				"isVisibleInTree": false,
-				"visibility": true,
+				"visibility": false,
 				"styleId": "StorkStr97.Geschoss.FL",                        
 				"minScale": "164",
 				"maxScale": "166"
