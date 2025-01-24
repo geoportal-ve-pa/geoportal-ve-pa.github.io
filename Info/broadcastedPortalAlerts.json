@@ -1,0 +1,30 @@
+{
+    "globalAlerts": ["searchHint", "wartung"],
+
+    "restrictedAlerts": {
+        "https://geodaten-mitte.github.io/Info/": ["searchHint", "wartung"]
+
+
+    },
+
+    "alerts": {
+
+        "wartung": {
+            "displayClass": "warning",
+            "category": "Achtung - Fehler in der Adresssuche",
+            "content": "Leider gibt es einen Fehler in der Adresssuche.</p> Um diesen Fehler zu umgehen bitte vor die Straße 'Berlin, ' schreiben.</p>Wir bitten um Ihr Verständnis.",
+            "displayFrom": "2021-11-10 00:00:00",
+            "displayUntil": "2021-11-16 20:00:00",
+            "once": {
+                "days": 1
+            }
+        },
+        "searchHint": {
+            "displayClass": "info",
+            "category": "Willkommen im Geoportal des Kataster & Vermessungsamtes Mitte!",
+            "content": "Über die Suche oben finden Sie schnell und einfach Themen.</p>Gleich daneben finden Sie Hilfestellungen zur Suche.</p>Viel Spaß mit der Anwendung.</p>",
+            "mustBeConfirmed": true,
+            "once": true
+        }
+    }
+}

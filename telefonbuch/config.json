@@ -1,0 +1,403 @@
+{
+    "Portalconfig": {
+        "portalTitle": {
+            "title": "Bezirk Pankow",
+            "logo": "../resources/img/Wappen.png",
+            "link": "https://b-intern.de/ba/pankow/?ssl",
+            "toolTip": "Berlin"
+        },
+	"singleBaselayer": true,
+        "treeType": "custom",
+        "searchBar": {
+            "bkg": {
+                "minCharacters": 3,
+                "suggestServiceId": "4",
+                "geosearchServiceId": "5",
+               	"extent": [
+                    387500,
+                    5819900,
+                    400100,
+                    5837400
+                ],
+                "suggestCount": 10,
+                "epsg": "EPSG:25833",
+				"filter": "filter=bundesland:Berlin",
+                "score": 0.6,
+                "zoomToResultOnHover": false,
+                "zoomToResultOnClick": true,
+                "zoomLevel": 1
+            },
+            "osm": {
+                "minChars": 3,
+                "serviceId": "10",
+                "limit": 60,
+                "states": "Berlin",
+                "classes": "place,highway,building,shop,historic,leisure,city,county"
+            },           
+
+            "visibleVector": {
+                "minChars": 3,
+                "layerTypes": ["WFS", "GeoJSON"]
+            },
+            "tree": {},
+            "startzoomLevel": 1,
+            "placeholder": "Suche nach: Straße, Haus-Nr.",
+            "parcelSearch": true
+         },
+        "mapView": {
+            "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
+            "startCenter": [
+                394911,
+                5821901
+            ],
+            "epsg": "EPSG:25833",
+            "extent": [
+                394827.76,
+                5821846.35,
+                394983.02,
+                5821978.89
+            ],
+            "startZoomLevel": 0,
+            "epsg": "EPSG:25833",
+            "options": [{
+                    "resolution": 0.13229159522920521,
+                    "scale": 500,
+                    "zoomLevel": 0
+                },
+                {
+                    "resolution": 0.0661457976146025,
+                    "scale": 250,
+                    "zoomLevel": 1
+                },
+				{
+                    "resolution": 0.0447145591874712,
+                    "scale": 169,
+                    "zoomLevel": 2
+                },
+				{
+                    "resolution": 0.0441853928065544,
+                    "scale": 167,
+                    "zoomLevel": 3
+                },
+				{
+                    "resolution": 0.0436562264256376,
+                    "scale": 165,
+                    "zoomLevel": 4
+                },
+				{
+                    "resolution": 0.0431270600447208,
+                    "scale": 163,
+                    "zoomLevel": 5
+                },
+				{
+                    "resolution": 0.0425978936638039,
+                    "scale": 161,
+                    "zoomLevel": 6
+                },
+				{
+                    "resolution": 0.0420687272828871,
+                    "scale": 159,
+                    "zoomLevel": 7
+                },
+				{
+                    "resolution": 0.0415395609019703,
+                    "scale": 157,
+                    "zoomLevel": 8
+                },
+				{
+                    "resolution": 0.0410103945210535,
+                    "scale": 155,
+                    "zoomLevel": 9
+                },
+                {
+                    "resolution": 0.040481228140137,
+                    "scale": 153,
+                    "zoomLevel": 10
+                },             
+                {
+                    "resolution": 0.0399520617592199,
+                    "scale": 151,
+                    "zoomLevel": 11
+                }
+            ]
+        },
+        "menu": {
+            "tree": {
+                "name": "Themen"
+            },
+            "tools": {
+                "name": "Werkzeuge",
+                "glyphicon": "glyphicon-wrench",
+                "children": {
+                    "gfi": {
+                        "name": "Informationen abfragen",
+                        "active": true
+                    },
+                    "coordToolkit": {
+                        "name": "Koordinaten"
+                    },
+                    "measure": {
+                        "name": "Strecke / Fläche messen"
+                    },
+                    "draw": {
+                        "name": "Zeichnen / Schreiben"
+                    },
+                    "fileImport": {
+                        "name": "Datei Import"
+                    },
+                    "saveSelection": {
+                        "name": "Auswahl speichern"
+                    },
+                    "scaleSwitcher": {
+                        "name": "Maßstab umschalten"
+                    },
+                    "addWMS": {
+                        "name": "WMS hinzufügen",
+                        "onlyDesktop": false
+                    },
+                    
+                    "print": {
+                        "name": "Karte drucken",                        
+						"printServiceId": "mapfish_printservice_id",                        
+						"printAppId": "gdibe",                        
+						"filename": "Print",                        
+						"title": "Mein Titel",                        
+						"currentLayoutName": "A4 quer",                        
+						"version": "mapfish_print_3",                        
+						"isLegendSelected": false,                        
+						"gfi": false,                        
+						"legendText": "Legende",                                    
+						"dpiForPdf": 90
+					},
+                    "routing": {
+                        "name": "Routing (ohne funktion)",
+						"icon": "bi-signpost-2-fill",
+						"activeRoutingToolOption": "DIRECTIONS",
+						"routingToolOptions": ["DIRECTIONS", "ISOCHRONES"],
+						"download": {
+							"filename": "",
+							"format": "GEOJSON"
+						},
+						"geosearch": {
+							"minChars": 3,
+							"limit": 10,
+							"type": "BKG",
+							"serviceId": "BKG_GEO"
+						},
+						"geosearchReverse": {
+							"distance": 1000,
+							"filter": "",
+							"type": "BKG",
+							"serviceId": "BKG_SUG"
+						},
+						"directionsSettings": {
+							"type": "ORS",
+							"serviceId": "bkg_ors",
+							"speedProfile": "CAR",
+							"preference": "RECOMMENDED",
+							"styleRoute": {
+								"fillColor": [255, 44, 0],
+								"width": 6,
+								"highlightColor": [255, 255, 255],
+								"highlightWidth": 9,
+								"partHighlightColor": [255, 255, 255],
+								"partHighlightWidth": 3
+							},
+							"styleWaypoint": {
+								"lineColor": [255, 127, 0],
+								"lineWidth": 4,
+								"fillColor": [255, 127, 0],
+								"textFillColor": "#000",
+								"textLineColor": "#fff",
+								"textLineWidth": 3,
+								"opacity": 0.3,
+								"radius": 8
+							},
+							"styleAvoidAreas": {
+								"lineColor": [0, 127, 255],
+								"lineWidth": 2,
+								"fillColor": [0, 127, 255],
+								"opacity": 0.3,
+								"pointRadius": 8,
+								"pointLineWidth": 4
+							},
+							"batchProcessing": {
+								"enabled": false,
+								"active": false,
+								"limit": 1000,
+								"maximumConcurrentRequests": 3
+							}
+						},
+						"isochronesSettings": {
+							"type": "ORS",
+							"serviceId": "bkg_ors",
+							"speedProfile": "CAR",
+							"isochronesMethodOption": "TIME",
+							"distanceValue": 30,
+							"minDistance": 1,
+							"maxDistance": 400,
+							"timeValue": 30,
+							"minTime": 1,
+							"maxTime": 180,
+							"intervalValue": 15,
+							"minInterval": 3,
+							"maxInterval": 30,
+							"styleCenter": {
+								"lineColor": [255, 127, 0],
+								"lineWidth": 4,
+								"fillColor": [255, 127, 0],
+								"opacity": 0.3,
+								"radius": 8
+							},
+							"styleIsochrones": {
+								"lineWidth": 2,
+								"opacity": 0.65,
+								"startColor": [66, 245, 78],
+								"endColor": [245, 66, 66]
+							},
+							"batchProcessing": {
+								"enabled": false,
+								"active": false,
+								"limit": 1000,
+								"maximumConcurrentRequests": 3
+							}
+						}
+					}
+                }
+            },
+
+            "legend": {
+                "name": "Legende",
+                "glyphicon": "glyphicon-list-alt"
+            },
+            "info": {
+                "name": "Informationen",
+                "glyphicon": "glyphicon-globe",
+                "children": {
+                    "staticlinks": [
+                        {
+                            "name": "Berliner Vermessungsämter",
+                            "url": "https://www.berlin.de/vermessungsaemter/"
+                        }
+                    ]
+                }
+            }
+        },
+        "controls": {
+            "zoom": true,
+            "attributions": {
+                "isInitOpenDesktop": false,
+                "isInitOpenMobile": false
+            },
+            "mousePosition": true,
+            "overviewMap": {
+                "layerId": "minimap",
+                "isInitOpen": true
+            },
+            "totalView": {
+                "icon": "bi-skip-forward-fill",
+                "tableIcon": "bi-skip-forward-fill"
+            }
+        }
+    },
+
+    "Themenconfig": {
+        "Hintergrundkarten": {
+
+            "Layer": [{
+                    "id": "alkis-farbe-wms",
+                    "visibility": true,
+                    "name": "ALKIS (farbig)"
+                },
+                {
+                    "id": "alkis-sw-wms",
+                    "visibility": false,
+                    "name": "ALKIS (sw)"
+                }
+
+
+
+
+            ]
+        },
+        "Fachdaten": {
+            "name": "Fachdaten",
+            "Ordner": [{
+                    "Titel": "Storkower Straße 97",
+                    "isFolderSelectable": false,                    
+                    "Layer": [{
+			"id": "StorkStr97_10_OG",                        
+                        "visibility": true,
+			"children": [{
+                            "id": "StorkStr97_10_OG_Fl",
+			    "styleId": "StorkStr97.Geschoss.FL",                           
+                            "minScale": "168",
+                            "maxScale": "170"
+                        },
+                        {
+                            "id": "StorkStr97_10_OG_Li", 
+			    "styleId": "StorkStr97.Geschoss.LI",                          
+                            "minScale": "168",
+                            "maxScale": "170"
+                        },
+			{
+                            "id": "StorkStr97_10_OG_Te",
+			    "styleId": "StorkStr97.Geschoss.P",                           
+                            "minScale": "168",
+                            "maxScale": "170"
+                        }
+                    ]},
+                       {
+			"id": "StorkStr97_9_OG",                       
+                        "visibility": true,
+			"children": [{
+                            "id": "StorkStr97_9_OG_Fl",
+			    "styleId": "StorkStr97.Geschoss.FL",                           
+                            "minScale": "166",
+                            "maxScale": "168"
+                        },
+                        {
+                            "id": "StorkStr97_9_OG_Li",
+			    "styleId": "StorkStr97.Geschoss.LI",                          
+                            "minScale": "166",
+                            "maxScale": "168"
+                        },
+			{
+                            "id": "StorkStr97_9_OG_Te",
+			    "styleId": "StorkStr97.Geschoss.P",                           
+                            "minScale": "166",
+                            "maxScale": "168"
+                        }
+                    ]},
+                       {
+			"id": "StorkStr97_8_OG",                        
+                        "visibility": true,
+			"children": [{
+                            "id": "StorkStr97_8_OG_Fl",
+			    "styleId": "StorkStr97.Geschoss.FL",                        
+                            "minScale": "164",
+                            "maxScale": "166"
+                        },
+                        {
+                            "id": "StorkStr97_8_OG_Li",
+			    "styleId": "StorkStr97.Geschoss.LI",                           
+                            "minScale": "164",
+                            "maxScale": "166"
+                        },
+			{
+                            "id": "StorkStr97_8_OG_Te",
+			    "styleId": "StorkStr97.Geschoss.P",                           
+                            "minScale": "164",
+                            "maxScale": "166"
+                        }			
+                    ]}
+
+                    ]
+                }
+            ]
+
+
+
+            }
+        }
+    }

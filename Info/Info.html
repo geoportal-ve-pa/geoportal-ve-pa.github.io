@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title>Vermessungsamt Pankow von Berlin</title> <!-- enter your own Portal Title for the website at this -->
+    <link rel="stylesheet" href="../mastercode/2_50_0/css/masterportal.css">
+    <link rel="stylesheet" href="css/mp_pa_Info.css"> <!-- Here you can configure your own fonts as url -->
+    <link rel="icon" type="image/vnd.microsoft.icon" href="https://christoph-blank.github.io/Pankow/favicon.ico">
+<script type="text/javascript">
+	const observer = new MutationObserver(function() {
+		var container=document.querySelector('#masterportal-container')
+		if (container){
+			var sessionurl="https://sg.geodatenzentrum.de/gdz_getSession";
+			var appid="d054dbe6-fab0-27fa-3c60-5af92cfa13d6";
+			var domain="christoph-blank.github.io";
+			var restserviceid="bkg_ors";
+			var url=sessionurl+"?bkg_appid="+appid+"&domain="+domain;
+			fetch(url,{cache: "no-store"}).then(response => response.text()).then( sessionid => {
+				var restconf=container.__vue__.$store.state.restConf;
+				restconf.forEach(item => {
+					if (item.id==restserviceid){
+				   item.url=item.url+"__"+sessionid;
+					}
+				});
+			});
+			observer.disconnect();
+		}
+	});
+    observer.observe(document.documentElement , { subtree: true, childList: true});
+   </script>
+</head>
+<body>
+	<div id="loader" class="centered-box-wrapper loader-is-loading loader-is-initially-loading">
+        <div class="centered-box-content">
+            <!-- Here you can configure the start screen -->
+            <div id="portal-logo-box">
+                <img id="portal-logo" src="../resources/img/Legende_Skyline_Logo.png" />
+                <!-- Here an own logo can be integrated -->
+                <div id="portal-logo-main-title"></div><!-- Here you can enter your own logo text -->
+                <div id="portal-logo-sub-title"></div><!-- Here you can enter your own Portal Title -->
+            </div>
+            <div id="loader-spinner-itself" class="default"></div>
+        </div>
+        <div id=""><img src=""><!-- This logo should not be changed, as it is a central part of the Masterportal -->
+        </div>
+    </div>
+    <div id="masterportal-root"></div>
+    <script type="text/javascript" src="../mastercode/2_50_0/js/masterportal.js"></script>
+</body>
+</html>
