@@ -1,0 +1,76 @@
+[{
+        "id": "1",
+        "name": "CSW HMDK Summary",
+        "url": "https://fbinter.stadt-berlin.de/fb/csw?service=CSW&version=2.0.2&request=GetRecordById&typeNames=csw:Record&elementsetname=summary",
+        "typ": "CSW"
+    },
+    {
+        "id": "3",
+        "name": "CSW HMDK Full",
+        "url": "https://fbinter.stadt-berlin.de/fb/csw?service=CSW&version=2.0.2&request=GetRecordById&typeNames=csw:Record&elementsetname=full",
+        "typ": "CSW"
+    },
+    {
+        "id": "2",
+        "name": "Metadaten-URL",
+        "url": "https://geoportal.de/Metadata/",
+        "typ": "URL"
+    },
+    {
+        "id": "4",
+        "name": "BKG Geokodierungsdienst Suggest",
+        "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6/suggest",
+        "typ": "GDZ"
+    },
+
+    {
+        "id": "5",
+        "name": "BKG Geokodierungsdienst Geosearch",
+        "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6/geosearch",
+        "typ": "GDZ"
+    },
+
+    {
+        "id": "10",
+        "name": "OSM Suche",
+        "url": "https://nominatim.openstreetmap.org/search?",
+        "typ": "WFS"
+    },
+    {
+        "id": "80002",
+        "name": "Email Service by PHP",
+        "url": "https://geoportal-hamburg.de/smtp/sendmail.php",
+        "typ": "EmailService"
+    },
+    {
+        "id": "mapfish_printservice_id", 
+	"name": "Mapfish Print Service",
+	"url" : "https://gdi.berlin.de/services/printing/",
+	"typ" : "PrintService"
+    },
+    {
+        "id": "mapfish",
+        "name": "Print Service",
+        "url": "/api/mapfish/print/",
+        "typ": "PrintService"
+    },
+    {
+        "id": "11",
+        "name": "Komoot Photon Suche",
+        "url": "https://photon.komoot.io/api/?",
+        "typ": "WFS"
+    },
+    {
+        "id": "elastic",
+        "name": "Elastic Prod",
+        "url": "https://geodienste.hamburg.de/layers-internet/_search",
+        "typ": "Search"
+    },
+    {
+        "id": "elastic",
+        "name": "Elastic Prod",
+        "url": "https://geodienste.hamburg.de/layers/_search/template?source_content_type=application/json&source=",
+        "typ": "Search"
+    }
+
+]
