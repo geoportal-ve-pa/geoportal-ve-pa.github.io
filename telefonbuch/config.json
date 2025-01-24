@@ -800,11 +800,11 @@
                             ],
 			"Layer": [
                                 {
-                                    "id": "360fotos",                
-				    "styleId": "1711",
-                		    "visibility": false,
-                                    "name": "360 grad Fotos"
-                                }
+				"id": "StorkStr97_8_OG_Fl",
+				"styleId": "StorkStr97.Geschoss.FL",                        
+				"minScale": "164",
+				"maxScale": "166"
+				}
                             ]
                         }
                     ]
