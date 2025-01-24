@@ -674,7 +674,7 @@
                             "Ordner": [
 				{
 						"Titel": "Geschosse",
-						"isFolderSelectable": false,
+						"isFolderSelectable": true,
 							"Layer": [								
 									
 									{
