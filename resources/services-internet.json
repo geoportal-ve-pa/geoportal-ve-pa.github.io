@@ -3332,21 +3332,7 @@
         "typ": "GeoJSON",
         "gfiTheme": "default",
         "gfiAttributes": {
-	    "foto": {
-         	"name": "Foto",
-         	"type": "html",
-         	"html": {
-          		"tag": "iframe",
-          		"properties": {
-            			"src": "%value%",
-            			"width": "400px",
-            			"height": "400px",
-            			"frameborder": "0",
-            			"allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-            			"allowfullscreen": true
-          		        }
-        	    }
-                      },
+	    "foto": "Foto",
             "NAME": "Name",
             "STELLENZEIcCHEN": "Stellenzeichen",
             "TELEFONNUMMER": "Telefonnummer",
