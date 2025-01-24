@@ -21,29 +21,17 @@
                 ],
                 "suggestCount": 10,
                 "epsg": "EPSG:25833",
-				"filter": "filter=bundesland:Berlin",
+		"filter": "filter=bundesland:Berlin",
                 "score": 0.6,
                 "zoomToResultOnHover": false,
                 "zoomToResultOnClick": true,
-                "zoomLevel": 1
+                "zoomLevel": 6
             },
-            "osm": {
-                "minChars": 3,
-                "serviceId": "10",
-                "limit": 60,
-                "states": "Berlin",
-                "classes": "place,highway,building,shop,historic,leisure,city,county"
-            },           
-
-            "visibleVector": {
-                "minChars": 3,
-                "layerTypes": ["WFS", "GeoJSON"]
-            },
+            "visibleVector": {},
             "tree": {},
-            "startzoomLevel": 1,
-            "placeholder": "Suche nach: Straße, Haus-Nr.",
-            "parcelSearch": true
-         },
+            "startZoomLevel": 5,
+            "placeholder": "Suche nach: - Adresse oder Thema"
+        },
         "mapView": {
             "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
             "startCenter": [
@@ -57,7 +45,7 @@
                 394983.02,
                 5821978.89
             ],
-            "startZoomLevel": 0,
+            "startZoomLevel": 2,
             "epsg": "EPSG:25833",
             "options": [{
                     "resolution": 0.13229159522920521,
@@ -265,7 +253,6 @@
 					}
                 }
             },
-
             "legend": {
                 "name": "Legende",
                 "glyphicon": "glyphicon-list-alt"
@@ -300,104 +287,529 @@
             }
         }
     },
-
     "Themenconfig": {
         "Hintergrundkarten": {
-
-            "Layer": [{
+            "name": "Basiskarten/Luftbilder",
+            "Layer": [
+                {
+                    "id": "sw",
+                    "name": "Basiskarte (schwarz/weiß)",
+                    "visibility": false,
+                    "children": [
+                        {
+                            "id": "K5-1-sw",
+                            "maxScale": "6009"
+                        },
+                        {
+                            "id": "basemap-grau-wms",
+                            "minScale": "6010",
+                            "maxScale": "250000"
+                        }
+                    ]
+                },
+                {
+                    "id": "farbe",
+                    "name": "Basiskarte (farbig)",
+                    "visibility": false,
+                    "children": [
+                        {
+                            "id": "K5-1-farbe",
+                            "maxScale": "6009"
+                        },
+                        {
+                            "id": "basemap-farbe-wms",
+                            "minScale": "6010",
+                            "maxScale": "250000"
+                        }
+                    ]
+                },
+                {
+                    "id": "alkis-sw-wms",
+                    "visibility": false,
+                    "name": "ALKIS (schwarz/weiß)"
+                },
+                {
                     "id": "alkis-farbe-wms",
                     "visibility": true,
                     "name": "ALKIS (farbig)"
                 },
                 {
-                    "id": "alkis-sw-wms",
-                    "visibility": false,
-                    "name": "ALKIS (sw)"
+                    "id": "dop24",
+                    "name": "DOP 2024",
+                    "visibility": false
+                },
+                {
+                    "id": "flur-wfs",
+                    "name": "Flurgrenzen",
+                    "styleId": "flur-style",
+                    "visibility": false
+                },
+                {
+                    "id": "ortsteil-wms",
+                    "name": "Ortsteile",
+                    "visibility": false
                 }
-
-
-
-
             ]
         },
         "Fachdaten": {
-            "name": "Fachdaten",
-            "Ordner": [{
-                    "Titel": "Storkower Straße 97",
-                    "isFolderSelectable": false,                    
-                    "Layer": [{
-			"id": "StorkStr97_10_OG",                        
-                        "visibility": true,
-			"children": [{
-                            "id": "StorkStr97_10_OG_Fl",
-			    "styleId": "StorkStr97.Geschoss.FL",                           
-                            "minScale": "168",
-                            "maxScale": "170"
+            "Ordner": [
+                {
+                    "Titel": "Allgemeines",
+                    "isFolderSelectable": false,
+                    "Ordner": [
+                        {
+                            "Titel": "Historische Karten und Luftbilder",
+                            "isFolderSelectable": false,
+                            "Ordner": [
+                                {
+                                    "Titel": "Historische Karten",
+                                    "isFolderSelectable": false,
+                                    "Layer": [
+                                        {
+                                            "id": "K5-2019-wms",
+                                            "visibility": false,
+                                            "name": "K5-Jahrgang 2019"
+                                        },
+                                        {
+                                            "id": "K5-2018-wms",
+                                            "visibility": false,
+                                            "name": "K5-Jahrgang 2018"
+                                        },
+                                        {
+                                            "id": "K5-2016-wms",
+                                            "visibility": false,
+                                            "name": "K5-Jahrgang 2016"
+                                        },
+                                        {
+                                            "id": "K5-2014-wms",
+                                            "visibility": false,
+                                            "name": "K5-Jahrgang 2014"
+                                        },
+                                        {
+                                            "id": "K5-2012-wms",
+                                            "visibility": false,
+                                            "name": "K5-Jahrgang 2012"
+                                        },
+                                        {
+                                            "id": "K5-2010-wms",
+                                            "visibility": false,
+                                            "name": "K5-Jahrgang 2010"
+                                        },
+                                        {
+                                            "id": "K5-2008-wms",
+                                            "visibility": false,
+                                            "name": "K5-Jahrgang 2008"
+                                        },
+                                        {
+                                            "id": "K5-2006-wms",
+                                            "visibility": false,
+                                            "name": "K5-Jahrgang 2006"
+                                        },
+                                        {
+                                            "id": "K5-2003-wms",
+                                            "visibility": false,
+                                            "name": "K5-Jahrgang 2003"
+                                        },
+                                        {
+                                            "id": "K5-2001-wms",
+                                            "visibility": false,
+                                            "name": "K5-Jahrgang 2001"
+                                        },
+                                        {
+                                            "id": "straube-wms",
+                                            "visibility": false,
+                                            "name": "Straubes Übersichtsplan von Berlin"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Titel": "Historische Luftbilder",
+                                    "isFolderSelectable": false,
+                                    "Layer": [
+                                        {
+                                            "id": "dop23",
+                                            "name": "DOP 2023",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop22",
+                                            "name": "DOP 2022",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop21",
+                                            "name": "DOP 2021",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop20",
+                                            "name": "DOP 2020",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop19",
+                                            "name": "DOP 2019",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop18",
+                                            "name": "DOP 2018",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop17",
+                                            "name": "DOP 2017",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop16",
+                                            "name": "DOP 2016",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop15",
+                                            "name": "DOP 2015",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop14",
+                                            "name": "DOP 2014",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop13",
+                                            "name": "DOP 2013",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop11",
+                                            "name": "DOP 2011",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop10",
+                                            "name": "DOP 2010",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop09",
+                                            "name": "DOP 2009",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop07",
+                                            "name": "DOP 2007",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop04",
+                                            "name": "DOP 2004",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "hist-dop1999",
+                                            "name": "DOP 1999 - nur Punkte",
+                                            "visibility": false,
+                                            "styleId": "hist-dop1999-style"
+                                        },
+                                        {
+                                            "id": "hist-dop1989",
+                                            "name": "DOP 1989 - nur Punkte",
+                                            "visibility": false,
+                                            "styleId": "hist-dop1989-style"
+                                        },
+                                        {
+                                            "id": "hist-dop1984",
+                                            "name": "DOP 1984 - nur Punkte",
+                                            "visibility": false,
+                                            "styleId": "hist-dop1984-style"
+                                        },
+                                        {
+                                            "id": "hist-dop1969",
+                                            "name": "DOP 1969 - nur Punkte",
+                                            "visibility": false,
+                                            "styleId": "hist-dop1969-style"
+                                        },
+                                        {
+                                            "id": "hist-dop1953",
+                                            "name": "DOP 1953",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "hist-dop1928",
+                                            "name": "DOP 1928",
+                                            "visibility": false
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "id": "StorkStr97_10_OG_Li", 
-			    "styleId": "StorkStr97.Geschoss.LI",                          
-                            "minScale": "168",
-                            "maxScale": "170"
-                        },
-			{
-                            "id": "StorkStr97_10_OG_Te",
-			    "styleId": "StorkStr97.Geschoss.P",                           
-                            "minScale": "168",
-                            "maxScale": "170"
+                            "Titel": "Bearbeitergebiete",
+                            "isFolderSelectable": false,
+                            "Layer": [
+                                {
+                                    "id": "bearbeiter_BWA",
+                                    "visibility": false,
+                                    "name": "Bearbeitergebiete BWA (12.06.2024)",
+                                    "styleId": "bearbeiterBWA-style"
+                                },
+                                {
+                                    "id": "bearbeiter_UD",
+                                    "visibility": false,
+                                    "name": "Bearbeitergebiete UD (22.02.2023)",
+                                    "styleId": "bearbeiterUD-style"
+                                },
+                                {
+                                    "id": "bearbeiter_Stapl",
+                                    "visibility": false,
+                                    "name": "Bearbeitergebiete Stapl (18.04.2024)",
+                                    "styleId": "bearbeiterSTAPL-style"
+                                }
+                            ]
                         }
-                    ]},
-                       {
-			"id": "StorkStr97_9_OG",                       
-                        "visibility": true,
-			"children": [{
-                            "id": "StorkStr97_9_OG_Fl",
-			    "styleId": "StorkStr97.Geschoss.FL",                           
-                            "minScale": "166",
-                            "maxScale": "168"
-                        },
+                    ],
+                    "Layer": [
                         {
-                            "id": "StorkStr97_9_OG_Li",
-			    "styleId": "StorkStr97.Geschoss.LI",                          
-                            "minScale": "166",
-                            "maxScale": "168"
-                        },
-			{
-                            "id": "StorkStr97_9_OG_Te",
-			    "styleId": "StorkStr97.Geschoss.P",                           
-                            "minScale": "166",
-                            "maxScale": "168"
+                            "id": "bezirksgrenze-wfs",
+                            "visibility": true,
+                            "name": "Bezirksgrenze",
+                            "styleId": "bezirksgrenze-style"
                         }
-                    ]},
-                       {
-			"id": "StorkStr97_8_OG",                        
-                        "visibility": true,
-			"children": [{
-                            "id": "StorkStr97_8_OG_Fl",
-			    "styleId": "StorkStr97.Geschoss.FL",                        
-                            "minScale": "164",
-                            "maxScale": "166"
+                    ]
+                },
+                {
+                    "Titel": "Stadtentwicklungsamt",
+                    "isFolderSelectable": false,
+                    "Ordner": [
+                        {
+                            "Titel": "Fachbereich Stadtplanung",
+                            "isFolderSelectable": false,
+                            "Ordner": [
+                                {
+                                    "Titel": "Flächennutzungsplan (aktuelle Arbeitskarte)",
+                                    "isFolderSelectable": false,
+                                    "Layer": [
+                                        {
+                                            "id": "fnp",
+                                            "visibility": false,
+                                            "name": "Flächennutzungsplan (aktuelle Arbeitskarte)",
+                                            "children": [
+                                                {
+                                                    "id": "fnp-wfs",
+                                                    "visibility": false,
+                                                    "name": "Flächennutzungsplan"
+                                                },
+                                                {
+                                                    "id": "fnp-wms",
+                                                    "visibility": false,
+                                                    "name": "Flächennutzungsplan"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Titel": "Baunutzungsplan Berlin West",
+                                    "isFolderSelectable": false,
+                                    "Layer": [
+                                        {
+                                            "id": "baunutz58-wms",
+                                            "visibility": false,
+                                            "name": "Baunutzungsplan Berlin West (1:25.000)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Titel": "Soziale Stadt",
+                                    "isFolderSelectable": false,
+                                    "Layer": [
+                                        {
+                                            "id": "qmgebiete",
+                                            "visibility": false,
+                                            "name": "Quartiersmanagementgebiete",
+                                            "children": [
+                                                {
+                                                    "id": "qm-gebiete-wfs",
+                                                    "styleId": "qm-gebiete-style",
+                                                    "mouseHoverField": "schluessel"
+                                                },
+                                                {
+                                                    "id": "qmgebiete-wms"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "qmgebiete-aktion-wms",
+                                            "visibility": false,
+                                            "name": "Aktionsräume (Stand Juli 2010)"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "id": "StorkStr97_8_OG_Li",
-			    "styleId": "StorkStr97.Geschoss.LI",                           
-                            "minScale": "164",
-                            "maxScale": "166"
+                            "Titel": "Fachbereich Unterer Denkmalschutz",
+                            "isFolderSelectable": false,
+                            "Layer": [
+                                {
+                                    "id": "denkmalkarte",
+                                    "visibility": false,
+                                    "name": "Denkmalkarte Berlin",
+                                    "children": [
+                                        {
+                                            "id": "denkmal-wfs",
+                                            "styleId": "denkmal-style"
+                                        },
+                                        {
+                                            "id": "denkmal-wms"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
-			{
-                            "id": "StorkStr97_8_OG_Te",
-			    "styleId": "StorkStr97.Geschoss.P",                           
-                            "minScale": "164",
-                            "maxScale": "166"
-                        }			
-                    ]}
-
+                        {
+                            "Titel": "Fachbereich Vermessung",
+                            "isFolderSelectable": false,
+                            "Ordner": [
+				{
+						"Titel": "Geschosse",
+						"isFolderSelectable": false,
+							"Layer": [								
+									
+									{
+                                    "id": "OG10",
+                                    "visibility": false,
+                                    "name": "10. OG,
+                                    "children": [
+											{
+												"id": "StorkStr97_10_OG_Fl",
+												"styleId": "StorkStr97.Geschoss.FL",                           
+												"minScale": "168",
+												"maxScale": "170"
+											},
+											{
+												"id": "StorkStr97_10_OG_Li", 
+												"styleId": "StorkStr97.Geschoss.LI",                          
+												"minScale": "168",
+												"maxScale": "170"
+											},
+											{
+												"id": "StorkStr97_10_OG_Te",
+												"styleId": "StorkStr97.Geschoss.P",                           
+												"minScale": "168",
+												"maxScale": "170"
+											}
+                                    ]
+                                },
+								{
+                                    "id": "OG09",
+                                    "visibility": false,
+                                    "name": "9. OG",
+                                    "children": [
+											{
+												"id": "StorkStr97_9_OG_Fl",
+												"styleId": "StorkStr97.Geschoss.FL",                           
+												"minScale": "166",
+												"maxScale": "168"
+											},
+											{
+												"id": "StorkStr97_9_OG_Li",
+												"styleId": "StorkStr97.Geschoss.LI",                          
+												"minScale": "166",
+												"maxScale": "168"
+											},
+											{
+												"id": "StorkStr97_9_OG_Te",
+												"styleId": "StorkStr97.Geschoss.P",                           
+												"minScale": "166",
+												"maxScale": "168"
+											}
+                                    ]
+                                },
+								{
+                                    "id": "OG08",
+                                    "visibility": false,
+                                    "name": "8. OG",
+                                    "children": [
+											{
+												"id": "StorkStr97_8_OG_Fl",
+												"styleId": "StorkStr97.Geschoss.FL",                        
+												"minScale": "164",
+												"maxScale": "166"
+											},
+											{
+												"id": "StorkStr97_8_OG_Li",
+												"styleId": "StorkStr97.Geschoss.LI",                           
+												"minScale": "164",
+												"maxScale": "166"
+											},
+											{
+												"id": "StorkStr97_8_OG_Te",
+												"styleId": "StorkStr97.Geschoss.P",                           
+												"minScale": "164",
+												"maxScale": "166"
+											}
+                                    ]
+                                }
+							 	]
+				},
+                                {
+                                    "Titel": "Kartenwerke",
+                                    "isFolderSelectable": false,
+                                    "Ordner": [
+					
+                                        {
+                                            "Titel": "Blattschnitte",
+                                            "isFolderSelectable": false,
+                                            "Layer": [
+                                                {
+                                                    "id": "blatt-k5etrs-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte Karte von Berlin 1:5.000 ETRS89"
+                                                },
+                                                {
+                                                    "id": "blatt-k5soldner-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte Karte von Berlin 1:5.000 Soldner"
+                                                },
+                                                {
+                                                    "id": "blatt-dop-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte für die digitalen Orthophotos"
+                                                },
+                                                {
+                                                    "id": "blatt-dtk25-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte für die Kartenwerke 1:25.000"
+                                                },
+                                                {
+                                                    "id": "blatt-dtk50-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte für die Kartenwerke 1:50.000"
+                                                },
+                                                {
+                                                    "id": "blatt-dtk100-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte für die Kartenwerke 1:100.000"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+			"Layer": [
+                                {
+                                    "id": "360fotos",                
+				    "styleId": "1711",
+                		    "visibility": false,
+                                    "name": "360 grad Fotos"
+                                }
+                            ]
+                        }
                     ]
                 }
             ]
-
-
-
-            }
         }
     }
+}
