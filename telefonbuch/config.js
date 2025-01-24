@@ -19,10 +19,6 @@ const Config = {
       showVersion: true
    },
 
-   alerting: {
-      fetchBroadcastUrl: "../Info/broadcastedPortalAlerts.json"
-   },
-
    quickHelp: {
       imgPath: "./resources/img/"
    },
