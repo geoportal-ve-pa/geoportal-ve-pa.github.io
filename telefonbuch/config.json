@@ -673,129 +673,80 @@
                             "isFolderSelectable": false,
                             "Ordner": [
 				{
-						"Titel": "Geschosse",
-						"isFolderSelectable": false,
-							"Layer": [								
-									
-									{
-                                    "id": "OG10",
-                                    "visibility": false,
-                                    "name": "10. OG",
-                                    "children": [
-											{
+						
+                                {
+                                    "Titel": "Kartenwerk",
+                                    "isFolderSelectable": false,
+                                    "Ordner": [
+					
+                                        {
+                                            "Titel": "Geschosse",
+                                            "isFolderSelectable": false,
+					    "isVisibleInTree": false,
+                                            "Layer": [
+                                 							{
 												"id": "StorkStr97_10_OG_Fl",
-												"styleId": "StorkStr97.Geschoss.FL",                           
+												"styleId": "StorkStr97.Geschoss.FL",
+												"visibility": true,
 												"minScale": "168",
 												"maxScale": "170"
 											},
 											{
 												"id": "StorkStr97_10_OG_Li", 
-												"styleId": "StorkStr97.Geschoss.LI",                          
+												"styleId": "StorkStr97.Geschoss.LI",
+												"visibility": true,                          
 												"minScale": "168",
 												"maxScale": "170"
 											},
 											{
 												"id": "StorkStr97_10_OG_Te",
-												"styleId": "StorkStr97.Geschoss.P",                           
+												"styleId": "StorkStr97.Geschoss.P",
+												"visibility": true,                           
 												"minScale": "168",
 												"maxScale": "170"
-											}
-                                    ]
-                                },
-								{
-                                    "id": "OG09",
-                                    "visibility": false,
-                                    "name": "9. OG",
-                                    "children": [
-											{
+											},
+                                                					{
 												"id": "StorkStr97_9_OG_Fl",
-												"styleId": "StorkStr97.Geschoss.FL",                           
+												"styleId": "StorkStr97.Geschoss.FL",
+												"visibility": true,                           
 												"minScale": "166",
 												"maxScale": "168"
 											},
 											{
 												"id": "StorkStr97_9_OG_Li",
-												"styleId": "StorkStr97.Geschoss.LI",                          
+												"styleId": "StorkStr97.Geschoss.LI",
+												"visibility": true,                          
 												"minScale": "166",
 												"maxScale": "168"
 											},
 											{
 												"id": "StorkStr97_9_OG_Te",
-												"styleId": "StorkStr97.Geschoss.P",                           
+												"styleId": "StorkStr97.Geschoss.P",
+												"visibility": true,                           
 												"minScale": "166",
 												"maxScale": "168"
-											}
-                                    ]
-                                },
-								{
-                                    "id": "OG08",
-                                    "visibility": false,
-                                    "name": "8. OG",
-                                    "children": [
-											{
+											},
+						    					{
 												"id": "StorkStr97_8_OG_Fl",
-												"styleId": "StorkStr97.Geschoss.FL",                        
+												"styleId": "StorkStr97.Geschoss.FL",
+												"visibility": true,                        
 												"minScale": "164",
 												"maxScale": "166"
 											},
 											{
 												"id": "StorkStr97_8_OG_Li",
-												"styleId": "StorkStr97.Geschoss.LI",                           
+												"styleId": "StorkStr97.Geschoss.LI",
+												"visibility": true,                           
 												"minScale": "164",
 												"maxScale": "166"
 											},
 											{
 												"id": "StorkStr97_8_OG_Te",
-												"styleId": "StorkStr97.Geschoss.P",                           
+												"styleId": "StorkStr97.Geschoss.P",
+												"visibility": true,                           
 												"minScale": "164",
 												"maxScale": "166"
 											}
-                                    ]
-                                }
-							 	]
-				},
-                                {
-                                    "Titel": "Kartenwerke",
-                                    "isFolderSelectable": false,
-                                    "Ordner": [
-					
-                                        {
-                                            "Titel": "test",
-                                            "isFolderSelectable": false,
-					    "isVisibleInTree": false,
-                                            "Layer": [
-                                                {
-							"id": "StorkStr97_8_OG_Fl",							
-							"visibility": true,
-							"styleId": "StorkStr97.Geschoss.FL",                        
-							"minScale": "164",
-							"maxScale": "166"
-						},
-                                                {
-                                                    "id": "blatt-k5soldner-wms",
-                                                    "visibility": false,
-                                                    "name": "Blattschnitte Karte von Berlin 1:5.000 Soldner"
-                                                },
-                                                {
-                                                    "id": "blatt-dop-wms",
-                                                    "visibility": false,
-                                                    "name": "Blattschnitte für die digitalen Orthophotos"
-                                                },
-                                                {
-                                                    "id": "blatt-dtk25-wms",
-                                                    "visibility": false,
-                                                    "name": "Blattschnitte für die Kartenwerke 1:25.000"
-                                                },
-                                                {
-                                                    "id": "blatt-dtk50-wms",
-                                                    "visibility": false,
-                                                    "name": "Blattschnitte für die Kartenwerke 1:50.000"
-                                                },
-                                                {
-                                                    "id": "blatt-dtk100-wms",
-                                                    "visibility": false,
-                                                    "name": "Blattschnitte für die Kartenwerke 1:100.000"
-                                                }
                                             ]
                                         }
                                     ]
@@ -803,12 +754,11 @@
                             ],
 			"Layer": [
                                 {
-				"id": "StorkStr97_8_OG_Fl",
-				"visibility": false,
-				"styleId": "StorkStr97.Geschoss.FL",                        
-				"minScale": "164",
-				"maxScale": "166"
-				}
+                                    "id": "360fotos",                
+				    "styleId": "1711",
+                		    "visibility": false,
+                                    "name": "360 grad Fotos"
+                                }
                             ]
                         }
                     ]
