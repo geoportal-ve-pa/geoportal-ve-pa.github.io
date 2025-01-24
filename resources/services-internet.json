@@ -3294,8 +3294,25 @@
         "typ": "GeoJSON",
         "gfiTheme": "default",
         "gfiAttributes": {
+	    "foto": {
+         	"name": "Foto",
+         	"type": "html",
+         	"html": {
+          		"tag": "iframe",
+          		"properties": {
+            			"src": "%value%",
+            			"width": "400px",
+            			"height": "400px",
+            			"frameborder": "0",
+            			"allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+            			"allowfullscreen": true
+          		        }
+        	    }
+                      }
+	
+                           },
             "NAME": "Name",
-            "STELLENZEIcCHEN": "Stellenzeichen",
+            "STELLENZEICHEN": "Stellenzeichen",
             "TELEFONNUMMER": "Telefonnummer",
             "MAIL": "Mail",
             "AUFGABEN": "Aufgaben",
@@ -3304,7 +3321,8 @@
             "DIENSTGRUPPE": "Dienstgruppe",
             "DIENSTGEBÄUDE": "Dienstgebäude",
             "ZIMMER": "Zimmer",
-            "INTERNET": "Internet"
+            "INTERNET": "Internet",
+	    "stand": "Stand"
         },
 	"legendURL": "ignore"
         
@@ -3316,6 +3334,23 @@
         "typ": "GeoJSON",
         "gfiTheme": "default",
         "gfiAttributes": {
+	    "foto": {
+         	"name": "Foto",
+         	"type": "html",
+         	"html": {
+          		"tag": "iframe",
+          		"properties": {
+            			"src": "%value%",
+            			"width": "400px",
+            			"height": "400px",
+            			"frameborder": "0",
+            			"allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+            			"allowfullscreen": true
+          		        }
+        	    }
+                      }
+	
+                           },
             "NAME": "Name",
             "STELLENZEIcCHEN": "Stellenzeichen",
             "TELEFONNUMMER": "Telefonnummer",
@@ -3326,7 +3361,8 @@
             "DIENSTGRUPPE": "Dienstgruppe",
             "DIENSTGEBÄUDE": "Dienstgebäude",
             "ZIMMER": "Zimmer",
-            "INTERNET": "Internet"
+            "INTERNET": "Internet",
+	    "stand": "Stand"
         },
         "legendURL": "ignore",
         "layerAttribution": "Geschosse im Rathaus Tiergarten Stand: 02.2022"
@@ -3339,6 +3375,23 @@
         "typ": "GeoJSON",
         "gfiTheme": "default",
         "gfiAttributes": {
+	    "foto": {
+         	"name": "Foto",
+         	"type": "html",
+         	"html": {
+          		"tag": "iframe",
+          		"properties": {
+            			"src": "%value%",
+            			"width": "400px",
+            			"height": "400px",
+            			"frameborder": "0",
+            			"allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+            			"allowfullscreen": true
+          		        }
+        	    }
+                      }
+	
+                           },
             "NAME": "Name",
             "STELLENZEIcCHEN": "Stellenzeichen",
             "TELEFONNUMMER": "Telefonnummer",
@@ -3349,7 +3402,8 @@
             "DIENSTGRUPPE": "Dienstgruppe",
             "DIENSTGEBÄUDE": "Dienstgebäude",
             "ZIMMER": "Zimmer",
-            "INTERNET": "Internet"
+            "INTERNET": "Internet",
+	    "stand": "Stand"
         },
 	"legendURL": "ignore"
         
