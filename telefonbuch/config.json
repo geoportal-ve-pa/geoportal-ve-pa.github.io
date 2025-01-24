@@ -29,7 +29,7 @@
             },
             "visibleVector": {},
             "tree": {},
-            "startZoomLevel": 5,
+            "startZoomLevel": 0,
             "placeholder": "Suche nach: - Adresse oder Thema"
         },
         "mapView": {
@@ -45,7 +45,7 @@
                 394983.02,
                 5821978.89
             ],
-            "startZoomLevel": 2,
+            "startZoomLevel": 0,
             "epsg": "EPSG:25833",
             "options": [{
                     "resolution": 0.13229159522920521,
