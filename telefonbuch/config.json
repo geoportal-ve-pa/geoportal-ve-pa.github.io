@@ -801,7 +801,7 @@
 			"Layer": [
                                 {
 				"id": "StorkStr97_8_OG_Fl",
-				"Visibleintree": false,
+				"isVisibleInTree": false,
 				"visibility": true,
 				"styleId": "StorkStr97.Geschoss.FL",                        
 				"minScale": "164",
