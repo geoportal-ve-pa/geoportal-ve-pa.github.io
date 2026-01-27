@@ -2,8 +2,7 @@
   "globalAlerts": [],
 
   "restrictedAlerts": {    
-    "https://geoportal.ba-pankow.verwalt-berlin.de/geoportal/pankow/": ["news_2025_04_22","willkommen"],
-    "https://geoportal.ba-pankow.verwalt-berlin.de/geoportal/vermessung/":["news_2025_04_22","news_2025_04_16","willkommen"]
+    "https://geoportal-ve-pa.github.io/": ["news_2025_04_22","willkommen"]
   },
 
   "alerts": {
@@ -69,3 +68,4 @@
     }
   }
 }
+
