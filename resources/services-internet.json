@@ -766,7 +766,7 @@
    }, 
     {
         "id": "schu_spo_schul_öff_2023_04_17",
-        "name": "Öffentliche Schulen",
+        "name": "Öffentliche Schulen (04/2023)",
         "name_lang": "Öffentliche Schulen",
         "url": "../resources/geojson/Schulen_öffentlich_2023_04_17.geojson",
         "typ": "GeoJSON",
@@ -791,7 +791,7 @@
     },        
 {
         "id": "schu_spo_schul_priv_2023_04_17",
-        "name": "Private Schulen",
+        "name": "Private Schulen (04/2023)",
         "name_lang": "Private Schulen",
         "url": "../resources/geojson/Schulen_privat_2023_04_17.geojson",
         "typ": "GeoJSON",
@@ -3747,4 +3747,5 @@
     }
 
 ]
+
 
