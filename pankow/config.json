@@ -1,0 +1,1001 @@
+
+{
+    "portalConfig": {
+        "map": {
+
+            "map3dParameter": {
+                "camera": {
+                    "tilt": 45
+                },
+                "fog": {
+                    "enabled": true,
+                    "density": 0.0002,
+                    "screenSpaceErrorFactor": 2
+                },
+                "fxaa": false,
+                "globe": {
+                    "enableLighting": true,
+                    "maximumScreenSpaceError": 2,
+                    "tileCacheSize": 20
+                }
+            },
+            "controls": {
+                "zoom": true,
+                "button3d": true,
+                "expandable": {
+                    "orientation": {
+                        "zoomMode": "once"
+                    },
+                    "freeze": true,
+                    "fullScreen": true,
+                    "rotation": {
+                        "compass3d": true,
+                        "showResetRotationAlways": false,
+                        "showResetRotation": true,
+                        "rotationIcons": true
+                    },
+                    "tiltView": true,
+                    "totalView": true,
+                    "startModule": {
+                        "mainMenu": [
+
+                        ],
+                        "secondaryMenu": [
+
+                        ]
+                    }
+                }
+            },
+            "layerPills": {
+                "active": false,
+                "mobileOnly": false
+            },
+            "mapView": {
+                "startCenter": [
+                    391237,
+                    5828118
+                ],
+                "extent": [
+                    386000,
+                    5818500,
+                    401000,
+                    5838000
+                ],
+                "startResolution": 19.843739284380800,
+                "options": [{
+                        "resolution": 66.14579761460263,
+                        "scale": 250000,
+                        "zoomLevel": 0
+                    },
+                    {
+                        "resolution": 26.458319045841044,
+                        "scale": 100000,
+                        "zoomLevel": 1
+                    },
+                    {
+                        "resolution": 19.843739284380800,
+                        "scale": 75000,
+                        "zoomLevel": 2
+                    },
+                    {
+                        "resolution": 15.874991427504629,
+                        "scale": 60000,
+                        "zoomLevel": 3
+                    },
+                    {
+                        "resolution": 10.583327618336419,
+                        "scale": 40000,
+                        "zoomLevel": 4
+                    },
+                    {
+                        "resolution": 5.2916638091682096,
+                        "scale": 20000,
+                        "zoomLevel": 5
+                    },
+                    {
+                        "resolution": 2.6458319045841048,
+                        "scale": 10000,
+                        "zoomLevel": 6
+                    },
+                    {
+                        "resolution": 1.3229159522920524,
+                        "scale": 5000,
+                        "zoomLevel": 7
+                    },
+                    {
+                        "resolution": 0.6614579761460262,
+                        "scale": 2500,
+                        "zoomLevel": 8
+                    },
+                    {
+                        "resolution": 0.2645831904584105,
+                        "scale": 1000,
+                        "zoomLevel": 9
+                    },
+                    {
+                        "resolution": 0.13229159522920522,
+                        "scale": 500,
+                        "zoomLevel": 10
+                    },
+                    {
+                        "resolution": 0.06614579761460261,
+                        "scale": 250,
+                        "zoomLevel": 11
+                    },
+                    {
+                        "resolution": 0.0330728988073013,
+                        "scale": 125,
+                        "zoomLevel": 12
+                    }
+                ],
+
+                "startZoomLevel": 3,
+                "mapInteractions": {
+                    "interactionModes": {
+                        "altShiftDragRotate": true,
+                        "twoFingerPan": false
+                    }
+                },
+                "epsg": "EPSG:25833"
+            },
+            "baselayerSwitcher": {
+                "active": true
+            }
+        },
+        "portalFooter": {
+            "urls": [{
+                "bezeichnung": "common:modules.portalFooter.designation",
+                "url": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/stadtentwicklungsamt/vermessung/artikel.220516.php",
+                "alias": "Stadtentwicklungsamt, Fachbereich Vermessung",
+                "alias_mobil": "FB Vermessung"
+            }]
+        },
+        "tree": {
+            "singleBaselayer": true,
+            "addLayerButton": {
+                "active": true,
+                "searchBar": {
+                    "active": true,
+                    "searchInterfaceInstanceId": "elasticSearch_0",
+                    "searchCategory": "Thema (externe Fachdaten)"
+                }
+            },
+            "highlightedFeatures": {
+                "active": true
+            }
+        },
+        "mainMenu": {
+            "expanded": true,
+            "title": {
+                "text": "",
+                "logo": "../resources/img/B_BA_W_PA_Logo_DE_V_PT_RGB1.svg",
+                "link": "https://b-intern.de/ba/pankow/?ssl",
+                "toolTip": "Berlin"
+            },
+            "searchBar": {
+
+                "searchInterfaces": [
+
+                    {
+                        "type": "komootPhoton",
+                        "minChars": 3,
+                        "serviceId": "11",
+                        "limit": 10,
+                        "lang": "de",
+                        "lat": 52.53704,
+                        "lon": 13.450604,
+                        "bbox": "13.363,52.527,13.558,52.656"
+                    },
+                    {
+                        "type": "osmNominatim",
+                        "serviceId": "10",
+                        "limit": 60,
+                        "states": "Berlin",
+                        "classes": "place,highway,building,shop,historic,leisure,city,county"
+                    },
+					
+                    {
+                        "type": "visibleVector",
+                        "resultEvents": {
+                            "onClick": [
+                                "openGetFeatureInfo",
+                                "setMarker",
+                                "zoomToResult"
+                            ],
+                            "onHover": [
+                                "setMarker"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "topicTree",
+                        "hitTemplate": "layer"
+                    }
+
+                ]
+            },
+            "sections": [
+                [{
+                        "type": "fileImport"
+                    },
+                    {
+                        "name": "Suche (Flurstücke, Ortsteile, u.a.)",
+                        "zoomLevel": 8,
+                        "instances": [{
+                                "title": "Flurstücksuche",
+                                "resultDialogTitle": "Trefferliste",
+                                "requestConfig": {
+                                    "restLayerId": "alkis_flurstuecke:rest:flurstuecke",
+                                    "maxFeatures": "showAll"
+                                },
+                                "selectSource": "../resources/geojson/flurstueck_hierarchie.json",
+                                "literals": [{
+                                    "clause": {
+                                        "type": "and",
+                                        "literals": [{
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "gmk",
+                                                    "inputLabel": "Gemarkung",
+                                                    "required": true,
+                                                    "options": "",
+                                                    "usesId": true
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "fln",
+                                                    "inputLabel": "Flurnummer",
+                                                    "required": true,
+                                                    "options": "fln"
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "zae",
+                                                    "inputLabel": "Flurstücksnummer",
+                                                    "required": true,
+                                                    "options": "zae"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }]
+                            },
+                            {
+                                "title": "Ortsteile",
+                                "resultDialogTitle": "Trefferliste",
+                                "requestConfig": {
+                                    "restLayerId": "alkis_ortsteile:rest:ortsteile",
+                                    "maxFeatures": "showAll"
+                                },
+                                "selectSource": "../resources/geojson/ortsteile_hierarchie.json",
+                                "literals": [{
+                                    "clause": {
+                                        "type": "and",
+                                        "literals": [{
+                                                "field": {
+                                                    "type": "like",
+                                                    "fieldName": "sch",
+                                                    "inputLabel": "Bezirk",
+                                                    "required": true,
+                                                    "options": "",
+                                                    "usesId": true
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "nam",
+                                                    "inputLabel": "Ortsteil",
+                                                    "required": true,
+                                                    "options": "nam"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }]
+                            },
+                            {
+                                "title": "Planungsräume",
+                                "resultDialogTitle": "Trefferliste",
+                                "requestConfig": {
+                                    "restLayerId": "lor_2021:rest:a_lor_plr_2021",
+                                    "maxFeatures": "showAll"
+                                },
+                                "selectSource": "../resources/geojson/planungsraum_hierarchie.json",
+                                "literals": [{
+                                    "clause": {
+                                        "type": "and",
+                                        "literals": [{
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "pgr_id",
+                                                    "inputLabel": "Prognoseraum",
+                                                    "required": true,
+                                                    "options": "",
+                                                    "usesId": true
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "bzr_name",
+                                                    "required": true,
+                                                    "inputLabel": "Bezirksregion",
+                                                    "options": "bzr_name"
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "plr_name",
+                                                    "required": true,
+                                                    "inputLabel": "Planungsraum",
+                                                    "options": "plr_name"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }]
+                            }
+                        ],
+                        "type": "wfsSearch"
+                    },
+                    {
+                        "icon": "bi-newspaper",
+                        "name": "common:modules.news.name",
+                        "type": "news"
+                    },
+                    {
+                        "type": "language"
+                    },
+                    {
+                        "type": "customMenuElement",
+                        "icon": "bi-info-circle",
+                        "name": "FAQ",
+                        "htmlContent": "<details><summary></br><b>Leeren des Browercaches</b></summary></br><p>Manchmal verhindern im Cache des Browsers hinterlegte Dateien, dass aktuelle Inhalte der Internetseiten angezeigt werden. Stattdessen werden die im Cache gespeicherten veralteten Daten geladen. Wenn der Cache gelöscht wird, kann anschließend die neueste Version der entsprechenden Webseite geladen werden. Eine Leerung des Caches ist deswegen oft hilfreich, Fehler zu beheben und bewirkt auch, dass Internetseiten wieder schneller geladen werden.</p></details></br><details><summary></br><b>Wer ist mein Ansprechpartner?</b></summary></br><p>Für das Geoportal und den Funktionen dieses, ist die Abteilung GI zuständigt. Bei fragen oder Problemen meldet euch über die <a href=\"mailto:verm-gi@ba-pankow.berlin.de\">verm-gi@ba-pankow.berlin.de</a> bei uns. Bei Inhaltlichen fragen zu Themen die hier Präsentiert werden, ist immer die jeweilige Fachabteilung zuständig und Ansprechpartner.</p></details>"
+                    },					
+					{
+                        "type": "customMenuElement",
+                        "name": "Dienste Pankow",                        
+						"openURL": "https://geoportal.ba-pankow.verwalt-berlin.de/dienste/"
+                    }				
+                ],
+                [{
+						"type": "customMenuElement",
+                        "icon": "bi-envelope",
+                        "name": "Kontakt aufnehmen",
+						"execute":{
+							"action": "Alerting/addSingleAlert",
+							"payload":  {"title":"Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!", "content": "<div><button type=\"button\" style=\"background-color: white; border-color: steelblue; text-color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 12px;\"><a href=\"mailto:verm-gi@ba-pankow.berlin.de?subject=Geoportal Anliegen\">verm-gi@ba-pankow.berlin.de</a></button><div>"}
+						}
+					}
+
+                ]
+            ]
+        },
+        "secondaryMenu": {
+            "expanded": false,
+
+            "sections": [
+                [{
+                        "type": "modeler3D",
+                        "gmlIdPath": "gmlId",
+                        "updateAllLayers": false,
+                        "highlightStyle": {
+                            "silhouetteColor": "#E20D0F",
+                            "silhouetteSize": 4
+                        },
+                        "allowedAttributes": ["Gebaeudefunktion", "Wertbezeichnung"],
+                        "pvoColors": {
+                            "housing": "#ff0000",
+                            "commercial": "#666666",
+                            "public": "#44ff44"
+                        },
+                        "buildingSource": "ALKIS",
+                        "buildingFunctionURL": "https://repository.gdi-de.org/schemas/adv/citygml/Codelisten/BuildingFunctionTypeAdV.xml"
+                    },
+                    {
+                        "type": "shadow",
+                        "isShadowEnabled": true,
+                        "shadowTime": {
+                            "month": "6",
+                            "day": "20",
+                            "hour": "13",
+                            "minute": "0"
+                        }
+                    },
+					{
+                        "icon": "bi-geo",
+                        "geosearch": {
+                            "type": "BKG",
+                            "serviceId": "5",
+                            "filter": "filter=(typ:*)"
+                        },
+                        "geosearchReverse": {
+                            "type": "BKG",
+                            "serviceId": "5",
+                            "filter": "filter=(typ:*)"
+                        },
+                        "directionsSettings": {
+                            "type": "ORS",
+                            "serviceId": "bkg_ors",
+                            "speedProfile": "CAR",
+                            "batchProcessing": {
+                                "enabled": true,
+                                "active": false
+                            }
+                        },
+                        "isochronesSettings": {
+                            "type": "ORS",
+                            "serviceId": "bkg_ors",
+                            "speedProfile": "CAR",
+                            "batchProcessing": {
+                                "enabled": true,
+                                "active": false
+                            },
+                            "distanceValue": 5,
+                            "minDistance": 1,
+                            "maxDistance": 100,
+                            "timeValue": 30,
+                            "minTime": 1,
+                            "maxTime": 180,
+                            "intervalValue": 15,
+                            "minInterval": 1,
+                            "maxInterval": 30
+                        },
+                        "type": "routing"
+                    },
+                    {
+                        "type": "legend"
+                    },
+                    {
+                        "type": "print",
+                        "name": "Karte drucken",
+                        "printServiceId": "mapfish_printservice_id",
+                        "printAppId": "gdibe",
+                        "filename": "Print",
+                        "title": "Mein Titel",
+                        "currentLayoutName": "A4 quer",
+                        "version": "mapfish_print_3",
+                        "isLegendSelected": false,
+                        "gfi": false,
+                        "legendText": "Legende",
+                        "dpiForPdf": 90
+                    },
+                    {
+                        "type": "filter",
+                        "name": "Filterthemen",
+                        "description": "Filtere hier die Schularten",
+                        "icon": "bi-funnel-fill",
+                        "layerSelectorVisible": true,
+                        "layers": [{
+                                "layerId": "schu_spo_schul_öff_2023_04_17",
+                                "active": true,
+                                "title": "Öffentliche Schulen (Stand:17.04.2023)",
+                                "strategy": "active",
+                                "searchInMapExtent": true,
+                                "searchInMapExtentInfo": true,
+                                "showHits": true,
+                                "snippetTags": true,
+                                "paging": 1000,
+                                "snippets": [{
+                                        "title": "Schulart auswählen",
+                                        "placeholder": "Schulart auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "schulart"
+                                    },
+                                    {
+                                        "title": "Schulname auswählen",
+                                        "placeholder": "Schulname auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "name"
+                                    },
+                                    {
+                                        "title": "Ortsteil auswählen",
+                                        "placeholder": "Ortsteil auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "ortsteil"
+                                    }
+                                ]
+                            },
+                            {
+                                "layerId": "schu_spo_schul_priv_2023_04_17",
+                                "active": true,
+                                "title": "Private Schulen (Stand:17.04.2023)",
+                                "strategy": "active",
+                                "searchInMapExtent": true,
+                                "searchInMapExtentInfo": true,
+                                "showHits": true,
+                                "snippetTags": true,
+                                "paging": 1000,
+                                "snippets": [{
+                                        "title": "Schulart auswählen",
+                                        "placeholder": "Schulart auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "schulart"
+                                    },
+                                    {
+                                        "title": "Schulname auswählen",
+                                        "placeholder": "Schulname auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "name"
+                                    },
+                                    {
+                                        "title": "Ortsteil auswählen",
+                                        "placeholder": "Ortsteil auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "ortsteil"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "featureLister",
+                        "name": "Vector Dienst als Liste anzeigen",
+                        "description": "Liste alle Einträge zu einem Vector - Layer auf",
+                        "icon": "bi-list",
+                        "maxFeatures": 10,
+                        "highlightVectorRulesPolygon": {
+                            "fill": {
+                                "color": [
+                                    255,
+                                    0,
+                                    255,
+                                    0.9
+                                ]
+                            },
+                            "stroke": {
+                                "width": 4,
+                                "color": [
+                                    0,
+                                    0,
+                                    204,
+                                    0.9
+                                ]
+                            }
+                        },
+                        "highlightVectorRulesPointLine": {
+                            "stroke": {
+                                "width": 8,
+                                "color": [
+                                    255,
+                                    0,
+                                    255,
+                                    0.9
+                                ]
+                            },
+                            "image": {
+                                "scale": 2
+                            }
+                        }
+                    },
+                    {
+                        "type": "scaleSwitcher"
+                    },
+					{
+                        "type": "addWMS"
+                    },
+                    {
+                        "type": "shareView"
+                    },
+                    {
+                        "type": "measure"
+                    },
+                    {
+                        "type": "compareMaps",
+                        "supportedDevices": [
+                            "Desktop"
+                        ],
+                        "name": "Karten vergleichen",
+                        "description": "Vergleiche zwei Karten im gleichen Kartenausschnitt"
+                    },
+                    {
+                        "type": "coordToolkit",
+                        "heightLayerId": "19173",
+                        "heightElementName": "value_0",
+                        "heightValueWater": "-20",
+                        "heightValueBuilding": "200",
+                        "zoomLevel": 3
+                    },
+                    {
+                        "type": "layerSlider",
+                        "name": "Luftbilder",
+                        "timeInterval": 3000,
+                        "title": "Luftbilder: Zeitreihe 2002 - 2025",
+                        "layerIds": [{
+                                "title": "Luftbild 2002",
+                                "layerId": "Luft_2002"
+                            },
+                            {
+                                "title": "Luftbild 2004",
+                                "layerId": "Luft_2004"
+                            },
+                            {
+                                "title": "Luftbild 2006",
+                                "layerId": "Luft_2006"
+                            },
+                            {
+                                "title": "Luftbild 2007",
+                                "layerId": "Luft_2007"
+                            },
+                            {
+                                "title": "Luftbild 2009",
+                                "layerId": "Luft_2009"
+                            },                            
+                            {
+                                "title": "Luftbild 2011",
+                                "layerId": "Luft_2011"
+                            },
+							{
+                                "title": "Luftbild 2013",
+                                "layerId": "Luft_2013"
+                            },
+                            {
+                                "title": "Luftbild 2014",
+                                "layerId": "Luft_2014"
+                            },
+                            {
+                                "title": "Luftbild 2015",
+                                "layerId": "Luft_2015"
+                            },
+                            {
+                                "title": "Luftbild 2016",
+                                "layerId": "Luft_2016"
+                            },
+                            {
+                                "title": "Luftbild 2017",
+                                "layerId": "Luft_2017"
+                            },
+                            {
+                                "title": "Luftbild 2018",
+                                "layerId": "Luft_2018"
+                            },
+                            {
+                                "title": "Luftbild 2019",
+                                "layerId": "Luft_2019"
+                            },
+                            {
+                                "title": "Luftbild 2020",
+                                "layerId": "Luft_2020"
+                            },
+                            {
+                                "title": "Luftbild 2021",
+                                "layerId": "Luft_2021"
+                            },
+                            {
+                                "title": "Luftbild 2022",
+                                "layerId": "Luft_2022"
+                            },
+                            {
+                                "title": "Luftbild 2023",
+                                "layerId": "Luft_2023"
+                            },
+                            {
+                                "title": "Luftbild 2024",
+                                "layerId": "Luft_2024"
+                            },
+                            {
+                                "title": "Luftbild 2025",
+                                "layerId": "Luft_2025"
+                            }
+
+                        ]
+                    },
+                    {
+                        "name": "Zeichnen / Schreiben",
+                        "icon": "bi-pencil-fill",
+                        "type": "draw_old"
+                    }
+                ]
+            ]
+        }
+    },
+    "layerConfig": {
+        "baselayer": {
+            "elements": [{
+                    "id": "Alkis_Fis",
+                    "name": "ALKIS (farbig)",
+                    "visibility": false,
+                    "isNeverVisibleInTree": true
+                },
+                {
+                    "id": "Alkis_Fis_sw",
+                    "name": "ALKIS (sw)",                    
+                    "visibility": false,
+                    "isNeverVisibleInTree": true
+                },                
+                {
+                    "id": "Basemap-farbe",
+                    "name": "Basemap (Farb-Ausgabe)",
+                    "typ": "WMTS",
+                    "preview": {
+                        "src": "../resources/img/Basemap_Farbe.PNG"
+                    },
+                    "visibility": true,
+                    "isNeverVisibleInTree": true
+                },
+                {
+                    "id": "Basemap-sw",
+                    "name": "Basemap (SW-Ausgabe)",
+                    "typ": "WMTS",
+                    "preview": {
+                        "src": "../resources/img/Basemap_SW.PNG"
+                    },
+                    "visibility": false,
+                    "isNeverVisibleInTree": true
+                },
+                {
+                    "id": "hintergrund_k5_grau_baselayer_alt",
+                    "typ": "WMTS",
+                    "preview": {
+                        "src": "../resources/img/K5_SW.PNG"
+                    },
+                    "visibility": false,
+                    "isNeverVisibleInTree": true
+                },
+                {
+                    "id": "hintergrund_k5_farbe_baselayer_alt",
+                    "typ": "WMTS",
+                    "preview": {
+                        "src": "../resources/img/K5_Farbe.PNG"
+                    },
+                    "visibility": false,
+                    "isNeverVisibleInTree": true
+                },
+                {
+                    "id": "osm",
+                    "typ": "WMS",
+                    "visibility": false,
+                    "isNeverVisibleInTree": true
+                },
+                {
+                    "id": "osm-grey",
+                    "typ": "WMS",
+                    "visibility": false,
+                    "isNeverVisibleInTree": true
+                }
+
+            ]
+        },
+        "subjectlayer": {
+            "elements": [{
+                    "name": "Bezugsräume",
+                    "type": "folder",
+                    "elements": [{
+                            "id": "alkis_landesgrenze",
+                            "visibility": true
+                        },
+                        {
+                            "id": "alkis_bezirksgrenzen",
+                            "visibility": true
+                        },
+                        {
+                            "id": "alkis_ortsteile",
+                            "visibility": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Schul- und Sportamt",
+                    "type": "folder",
+                    "elements": [{
+                            "id": "schu_spo_einschul",
+                            "visibility": false
+                        },                        
+                        {
+                            "id": "schu_spo_schulen",
+                            "visibility": false
+                        },
+						{
+                            "id": "schu_spo_schul_öff_2023_04_17",
+                            "visibility": false,
+                            "isNeverVisibleInTree": true
+                        },
+						{
+                            "id": "schu_spo_schul_priv_2023_04_17",
+                            "visibility": false,
+                            "isNeverVisibleInTree": true
+                        }
+                    ]
+                },                
+                {
+                    "name": "ALKIS",
+                    "type": "folder",
+                    "elements": [{
+                            "id": "Alkis_Fis",
+                            "name": "Alkis Berlin Farbe",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Alkis_Fis_sw",
+                            "name": "Alkis Berlin SW",
+                            "visibility": false
+                        }
+                    ]
+                },
+
+                {
+                    "name": "Luftbilder",
+                    "showInLayerTree": false,
+                    "type": "folder",
+                    "elements": [{
+                            "id": "Luft_2002",
+                            "name": "Luftbild 2002",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2004",
+                            "name": "Luftbild 2004",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2006",
+                            "name": "Luftbild 2006",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2007",
+                            "name": "Luftbild 2007",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2009",
+                            "name": "Luftbild 2009",
+                            "visibility": false
+                        },                        
+                        {
+                            "id": "Luft_2011",
+                            "name": "Luftbild 2011",
+                            "visibility": false
+                        },
+						{
+                            "id": "Luft_2013",
+                            "name": "Luftbild 2013",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2014",
+                            "name": "Luftbild 2014",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2015",
+                            "name": "Luftbild 2015",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2016",
+                            "name": "Luftbild 2016",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2017",
+                            "name": "Luftbild 2017",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2018",
+                            "name": "Luftbild 2018",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2019",
+                            "name": "Luftbild 2019",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2020",
+                            "name": "Luftbild 2020",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2021",
+                            "name": "Luftbild 2021",
+                            "visibility": false
+                        },
+                        {
+                            "id": "Luft_2022",
+                            "name": "Luftbild 2022",
+                            "visibility": false
+                        },                        
+                        {
+                            "id": "Luft_2023",
+                            "name": "Luftbild 2023",
+                            "visibility": false
+                        },                        
+                        {
+                            "id": "Luft_2024",
+                            "name": "Luftbild 2024",
+                            "visibility": false
+                        },                        
+                        {
+                            "id": "Luft_2025",
+                            "name": "Luftbild 2025",
+                            "visibility": false
+                        }
+                    ]
+                },
+                {
+                    "name": "3D Daten",
+                    "type": "folder",
+                    "elements": [{
+                            "id": "terrain_3d",
+                            "name": "Digitales Geländemodell (DGM5, 2024)",
+                            "visibility": false
+                        },						
+                        {
+                            "id": "mesh_3d",
+                            "name": "Texturiertes Oberflächenmodell (3D-Mesh, 2023)",
+                            "visibility": true
+                        },
+                        {
+                            "id": "buildings_3d",
+                            "name": "Gebäude LoD2 in Geländehöhe (BKG, 2023)",
+                            "visibility": false
+                        },
+                        {
+                            "id": "buildings_3d_boden",
+                            "name": "Gebäude LoD2 auf Höhe 0 (BKG, 2023)",
+                            "visibility": false
+                        }
+                    ]
+                },
+                {
+                    "name": "weitere Themen",
+                    "type": "folder",
+                    "elements": [{
+                            "id": ["strassenbefahrung:aa_verkehrszeichen", "strassenbefahrung:ab_touchpoint", "strassenbefahrung:ac_trinkwasserbrunnen_wasserspender", "strassenbefahrung:ad_uhr", "strassenbefahrung:ae_viz_infotafel", "strassenbefahrung:af_wasserpumpen_brunnen", "strassenbefahrung:ag_werbesaeule", "strassenbefahrung:ah_abfallbehaelter_muellbox", "strassenbefahrung:ai_anforderungstaster_radverkehr", "strassenbefahrung:aj_anlegestelle", "strassenbefahrung:al_durchfahrtshoehe", "strassenbefahrung:am_fahnenmast", "strassenbefahrung:an_fahrbahnmarkierung_piktogramm", "strassenbefahrung:ao_gebaeudeeingang", "strassenbefahrung:ap_handsteuergeraet_lsa", "strassenbefahrung:aq_hydrant", "strassenbefahrung:ar1_kabelkasten", "strassenbefahrung:ar_kanaldeckel", "strassenbefahrung:as_mast", "strassenbefahrung:at_mast_lsa", "strassenbefahrung:au_parkscheinautomat", "strassenbefahrung:av_poller", "strassenbefahrung:aw_spielgeraet", "strassenbefahrung:ax_strassensinkkasten", "strassenbefahrung:ay_streugutbehaelter", "strassenbefahrung:az_taxirufsaeule", "strassenbefahrung:ba_telefonzelle_telefonstele", "strassenbefahrung:bb_verkehrsschutzgitter", "strassenbefahrung:bc_aufmerksamkeitsstreifen", "strassenbefahrung:bd_bordstein", "strassenbefahrung:be_fahrbahnmarkierunglinie", "strassenbefahrung:bf_gelaender", "strassenbefahrung:bg_leitplanke", "strassenbefahrung:bh_mauer", "strassenbefahrung:bi_schranke", "strassenbefahrung:bj_sitzbank", "strassenbefahrung:bk_strassenbegrenzung", "strassenbefahrung:bl_strassenentwaesserungsrinne", "strassenbefahrung:bm_zugangsbauwerk", "strassenbefahrung:bn_baumscheibe", "strassenbefahrung:bo_denkmal", "strassenbefahrung:bp_fahrbahnmarkierung_flaeche", "strassenbefahrung:bq_fahrradstaender", "strassenbefahrung:br_fahrgastunterstand", "strassenbefahrung:bs_induktionsschleife", "strassenbefahrung:bt_kabelschacht", "strassenbefahrung:bu1_kleinbauten_sondernutzung", "strassenbefahrung:bu_recycling_container", "strassenbefahrung:bv_springbrunnen_zierbrunnen", "strassenbefahrung:bw_aufmerksamkeitsfeld", "strassenbefahrung:bx_fahrbahnschwelle", "strassenbefahrung:by_gehwegueberfahrt", "strassenbefahrung:bz_gleiskoerper_strab", "strassenbefahrung:ca_haltebereich_bus", "strassenbefahrung:cb_haltestellenwartebereich", "strassenbefahrung:cc_treppe", "strassenbefahrung:cd_rampe", "strassenbefahrung:ce_gruenflaeche", "strassenbefahrung:cf_trennstreifen", "strassenbefahrung:cg_baustelle", "strassenbefahrung:ch_radweg", "strassenbefahrung:ci_oeffentlicher_platz", "strassenbefahrung:cj_fussgaengerzone", "strassenbefahrung:ck_parkflaeche", "strassenbefahrung:cl_gehweg", "strassenbefahrung:cm_fahrbahn"],
+                            "name": "Straßenbefahrung 2014",
+                            "showInLayerTree": false,
+                            "visibility": false,
+                            "typ": "GROUP"
+                        },
+                        {
+                            "id": ["Verkehrslage", "Baustellen_OCIT"],
+                            "name": "Verkehrslage",
+                            "visibility": false,
+                            "typ": "GROUP",
+                            "children": [{
+                                    "id": "Verkehrslage",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "Baustellen_OCIT",
+                                    "styleId": "Baustellen_OCIT",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "360grad",
+                            "name": "360 Grad Fotos",
+                            "styleId": "360grad",
+                            "visibility": false,
+							"isNeverVisibleInTree": true
+                        },
+                        {
+                            "id": "maske",
+                            "visibility": true,
+                            "styleId": "Maske.style",
+                            "isNeverVisibleInTree": true
+                        }
+                    ]
+                }
+
+
+            ]
+
+        }
+    }
+}

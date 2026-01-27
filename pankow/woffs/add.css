@@ -1,0 +1,10 @@
+@media (min-width : 576px) {
+	  .mp-menu-logo img[data-v-863b02fa] {
+		max-height: 100px;
+	}
+}
+@media (max-width : 575px) {
+	  .mp-menu-logo img[data-v-863b02fa] {
+		max-height: 75px;
+	}
+}
