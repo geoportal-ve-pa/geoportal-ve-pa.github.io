@@ -704,18 +704,6 @@
     "layerConfig": {
         "baselayer": {
             "elements": [{
-                    "id": "Alkis_Fis",
-                    "name": "ALKIS (farbig)",
-                    "visibility": false,
-                    "isNeverVisibleInTree": true
-                },
-                {
-                    "id": "Alkis_Fis_sw",
-                    "name": "ALKIS (sw)",                    
-                    "visibility": false,
-                    "isNeverVisibleInTree": true
-                },                
-                {
                     "id": "Basemap-farbe",
                     "name": "Basemap (Farb-Ausgabe)",
                     "typ": "WMTS",
@@ -999,3 +987,4 @@
         }
     }
 }
+
