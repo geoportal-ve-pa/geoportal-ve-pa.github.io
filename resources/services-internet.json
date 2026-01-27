@@ -1,0 +1,3749 @@
+[{
+        "id": "Basemap-farbe",
+		"name": "basemap.de Web Raster Farbe",
+        "name_lang": "basemap.de Web Raster Farbe",
+        "capabilitiesUrl": "https://sgx.geodatenzentrum.de/wmts_basemapde/1.0.0/WMTSCapabilities.xml",
+        "url": "https://sgx.geodatenzentrum.de/wmts_basemapde/1.0.0/",
+        "typ": "WMTS",
+        "tileMatrixSet": "DE_EPSG_25833_ADV",
+        "layers": "de_basemapde_web_raster_farbe",
+        "optionsFromCapabilities": true,
+		"gfiAttributes": "showAll",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "legend": "https://sgx.geodatenzentrum.de/wms_basemapde?format=image%2Fpng&layer=de_basemapde_web_raster_farbe&sld_version=1.1.0&request=GetLegendGraphic&service=WMS&version=1.1.1&styles=",
+        "datasets": [
+            {
+                "md_id": "FE1D2837-ABE0-46B5-9821-BB11BAF22531",
+                "rs_id": "https://registry.gdi-de.org/id/de.bund.bkg.csw/68f48957-a20f-3d93-bd62-e59ce6bd99fa",
+                "csw_url": "https://gdk.gdi-de.org/gdi-de/srv/ger/csw",
+                "show_doc_url": "https://gdz.bkg.bund.de/index.php/default/wmts-basemapde-webraster-wmts-basemapde-webraster.html#"
+            }
+        ]
+    },
+    {
+        "id": "Basemap-sw",
+        "name": "basemap.de Web Raster Grau",
+        "name_lang": "basemap.de Web Raster Grau",
+        "capabilitiesUrl": "https://sgx.geodatenzentrum.de/wmts_basemapde/1.0.0/WMTSCapabilities.xml",
+        "url": "https://sgx.geodatenzentrum.de/wmts_basemapde/1.0.0/",
+        "typ": "WMTS",
+        "tileMatrixSet": "DE_EPSG_25833_ADV",
+        "layers": "de_basemapde_web_raster_grau",
+        "optionsFromCapabilities": true,
+		"gfiAttributes": "showAll",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "legend": "https://sgx.geodatenzentrum.de/wms_basemapde?format=image/png&layer=de_basemapde_web_raster_grau&sld_version=1.1.0&request=GetLegendGraphic&service=WMS&version=1.1.1&styles=",
+        "datasets": [
+            {
+                "md_id": "FE1D2837-ABE0-46B5-9821-BB11BAF22531",
+                "rs_id": "https://registry.gdi-de.org/id/de.bund.bkg.csw/68f48957-a20f-3d93-bd62-e59ce6bd99fa",
+                "csw_url": "https://gdk.gdi-de.org/gdi-de/srv/ger/csw",
+                "show_doc_url": "https://gdz.bkg.bund.de/index.php/default/wmts-basemapde-webraster-wmts-basemapde-webraster.html#"
+            }
+        ]
+    },
+    
+    {
+        "id": "hintergrund_k5_farbe_baselayer_alt",
+        "name": "Karte von Berlin 1:5000 (K5 - Farbausgabe)",
+        "name_lang": "Karte von Berlin 1:5000 (K5 - Farbausgabe) (Karte von Berlin 1:5000 (K5 - Farbausgabe))",
+        "url": "https://gdi.berlin.de/services/wmts/k5_farbe",
+        "capabilitiesUrl": "https://gdi.berlin.de/services/wmts/k5_farbe?request=getcapabilities&service=WMTS&version=1.0.0",
+        "typ": "WMTS",
+        "preview": {
+            "src": "./resources/img/K5_Farbe.png"
+        },
+        "format": "image/png",
+        "layers": "k5_farbe",
+        "tileMatrixSet": "GDIBE:25833",
+        "datasets": [{
+            "md_id": "ed9d0b87-ab8b-3db0-9bf3-7f9218cc004a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/08f2353b-b31f-3c48-abe7-bff6594d61c7",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "optionsFromCapabilities": true
+    },	
+    {
+        "id": "hintergrund_k5_grau_baselayer_alt",
+        "name": "Karte von Berlin 1:5000 (K5 SW-Ausgabe)",
+        "name_lang": "Karte von Berlin 1:5000 (K5 SW-Ausgabe) (Karte von Berlin 1:5000 (K5 SW-Ausgabe))",
+        "url": "https://gdi.berlin.de/services/wmts/k5_sw",
+        "capabilitiesUrl": "https://gdi.berlin.de/services/wmts/k5_sw?request=getcapabilities&service=WMTS&version=1.0.0",
+        "typ": "WMTS",
+        "preview": {
+            "src": "./resources/img/K5_SW.png"
+        },
+        "format": "image/png",
+        "layers": "k5_sw",
+        "tileMatrixSet": "GDIBE:25833",
+        "datasets": [{
+            "md_id": "ed9d0b87-ab8b-3db0-9bf3-7f9218cc004a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/08f2353b-b31f-3c48-abe7-bff6594d61c7",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "optionsFromCapabilities": true
+    },
+	{
+        "id": "Alkis_Fis_sw",
+        "name": "ALKIS",
+        "crs" : "EPSG:25833",
+        "url" : "https://gdi.berlin.de/services/wms/alkis",
+        "typ" : "WMS",
+        "layers" : "a_alkis_raster_sw",
+        "legend" : true,
+        "datasets" : [
+           {
+              "md_id" : "0a7c53a5-b29d-3f45-9734-1c811045e6c2",
+              "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+           }
+        ],
+        "format" : "image/png",
+        "version" : "1.3.0",
+        "transparent" : true,
+        "gfiAttributes" : "ignore",
+        "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+        "minScale" : "250",
+        "maxScale" : "2550",
+        "singleTile" : false,
+        "tilesize" : 256
+    },
+    {
+        "id": "Alkis_Fis",
+        "name": "ALKIS",
+        "crs" : "EPSG:25833",
+        "url" : "https://gdi.berlin.de/services/wms/alkis",
+        "typ" : "WMS",
+        "layers" : "a_alkis_raster",
+        "legend" : true,
+        "datasets" : [
+           {
+              "md_id" : "0a7c53a5-b29d-3f45-9734-1c811045e6c2",
+              "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+           }
+        ],
+        "format" : "image/png",
+        "version" : "1.3.0",
+        "transparent" : true,
+        "gfiAttributes" : "ignore",
+        "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+        "minScale" : "250",
+        "maxScale" : "2550",
+        "singleTile" : false,
+        "tilesize" : 256
+    },
+    
+    {
+        "id": "osm-grey",
+        "name": "Open Street Map (Grau)",
+        "url": "https://osm-demo.wheregroup.com/service?_signature=39%3AHL5w_GiWotDc_Q6-oGglKsUdG3I&TRANSPARENT=TRUE&VERSION=1.3.0&EXCEPTIONS=XML",
+        "typ": "WMS",
+        "layers": "osm-grey",
+        "legend": true,
+        "format": "image/png",
+        "version": "1.3.0",
+        "singleTile": true,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "minScale": "0",
+        "maxScale": "2500000",
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
+    },
+    {
+        "id": "osm",
+        "name": "Open Street Map (Farbe)",
+        "url": "https://osm-demo.wheregroup.com/service?_signature=39%3AHL5w_GiWotDc_Q6-oGglKsUdG3I&TRANSPARENT=TRUE&VERSION=1.3.0&EXCEPTIONS=XML",
+        "typ": "WMS",
+        "layers": "osm",
+        "legend": true,
+        "format": "image/png",
+        "version": "1.3.0",
+        "singleTile": true,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "minScale": "0",
+        "maxScale": "2500000",
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
+    },
+    
+    {
+        "id": "mesh_3d",
+        "name": "3D-Meshmodell (Berlin-Partner, 2023)",
+        "url": "https://berlin-wab.virtualcitymap.de/datasource-data/baselayer/mesh_2023",
+        "typ": "TileSet3D",
+        "gfiAttributes": "ignore",
+        "legend": "./resources/leg/leg_3DMesh-Berlin.png",
+        "urlIsVisible": true,
+        "gfiTheme": "default",
+        "datasets": [{
+            "md_id": "a4144a41-90b6-3898-aeea-e2efe90f354e",
+            "md_name": "3D-Mesh Berlin 2023",
+            "csw_url": "https://gdk.gdi-de.org/gdi-de/srv/eng/csw?service=CSW",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/fa896f1b-c766-3e67-8339-8b1d84bc6e39"
+        }]
+    },
+    {
+        "id": "buildings_3d_boden",
+        "name": "3D-Gebäudemodell LoD2-DE (BKG)",
+        "url": "https://web3d.basemap.de/cesium/buildings-floor",
+        "typ": "TileSet3D",
+        "gfiAttributes": {
+            "gml_id": "Objekt-id",
+            "surface": "Oberflächentyp",
+            "gebaeudefunktion": "ALKIS-Objektartengruppe"
+        },
+        "urlIsVisible": true,
+        "gfiTheme": "default",
+        "layerAttribution": "nicht vorhanden",
+        "legend": "https://fbintra.senstadt.verwalt-berlin.de/fb_daten/vorschau/karten/kvor_lod2_sensw.gif",
+        "datasets": [{
+            "md_id": "3c7c49af-00a4-3bcd-bc00-20e7f0f1b7bf",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/dc40d006-b0ce-382b-93e8-ab82a2ea048b"
+        }]
+    },
+    {
+        "id": "buildings_3d",
+        "name": "3D-Gebäudemodell LoD2-DE (BKG)",
+        "url": "https://web3d.basemap.de/cesium/buildings-fly",
+        "typ": "TileSet3D",
+        "gfiAttributes": {
+            "gml_id": "Objekt-id",
+            "surface": "Oberflächentyp",
+            "gebaeudefunktion": "ALKIS-Objektartengruppe"
+        },
+        "urlIsVisible": true,
+        "gfiTheme": "default",
+        "layerAttribution": "nicht vorhanden",
+        "legend": "https://fbintra.senstadt.verwalt-berlin.de/fb_daten/vorschau/karten/kvor_lod2_sensw.gif",
+        "datasets": [{
+            "md_id": "3c7c49af-00a4-3bcd-bc00-20e7f0f1b7bf",
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/dc40d006-b0ce-382b-93e8-ab82a2ea048b"
+        }]
+    },
+    {
+        "id": "terrain_3d",
+        "name": "Geländemodell DGM5 (BKG, 2024)",
+        "url": "https://web3d.basemap.de/cesium/dgm5-mesh",
+        "typ": "Terrain3D",
+        "legendURL": "ignore",
+        "urlIsVisible": true,
+        "layerAttribution": "© Bundesamt für Kartographie und Geodäsie / Digitales Geländemodell Gitterweite 5 m",
+        "datasets": [{
+            "csw_url": "https://fbinter.stadt-berlin.de/fb/csw",
+            "md_id": "b0485f06-a39e-3cc2-b5e0-be7fcd425dab",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/253f38fd-6e0c-3f2c-aebd-c9acad9cafcb"
+        }]
+    },    
+      {
+      "id" : "alkis_landesgrenze",
+      "name" : "Landesgrenze",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/alkis_land",
+      "typ" : "WMS",
+      "layers" : "landesgrenze",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "0a7c53a5-b29d-3f45-9734-1c811045e6c2",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "showAll",
+      "featureCount" : "10",
+      "gfiTheme" : "default",
+      "infoFormat" : "application/json",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   }
+    {
+      "id" : "alkis_bezirksgrenzen",
+      "name" : "Bezirksgrenzen",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/alkis_bezirke",
+      "typ" : "WMS",
+      "layers" : "bezirksgrenzen",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "0a7c53a5-b29d-3f45-9734-1c811045e6c2",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "showAll",
+      "featureCount" : "10",
+      "gfiTheme" : "default",
+      "infoFormat" : "application/json",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+      {
+      "id" : "alkis_ortsteile",
+      "name" : "Ortsteile",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/alkis_ortsteile",
+      "typ" : "WMS",
+      "layers" : "ortsteile",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "0a7c53a5-b29d-3f45-9734-1c811045e6c2",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "showAll",
+      "featureCount" : "10",
+      "gfiTheme" : "default",
+      "infoFormat" : "application/json",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2002",
+        "name": "Luftbild 2002",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2002",
+      "typ" : "WMS",
+      "layers" : "dop_2002",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "5aaeead0-f953-36c7-ad57-8eda40a1a9ee",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2004",
+        "name": "Luftbild 2004",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2004",
+      "typ" : "WMS",
+      "layers" : "dop_2004",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "7980cb5c-2c9a-3649-9e47-6b6413d2d88e",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2006",
+        "name": "Luftbild 2006",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2006",
+      "typ" : "WMS",
+      "layers" : "dop_2006",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "b97ca27d-61cc-355b-8905-79ed0c4aa9b7",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2007",
+        "name": "Luftbild 2007",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2007",
+      "typ" : "WMS",
+      "layers" : "dop_2007",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "de32d147-d803-3340-a4be-ed0119b0bc48",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2009",
+        "name": "Luftbild 2009",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2009",
+      "typ" : "WMS",
+      "layers" : "dop_2009",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "8f70d448-6df2-3181-8944-eb27cf582743",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2011",
+        "name": "Luftbild 2011",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2011",
+      "typ" : "WMS",
+      "layers" : "dop_2011",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "72928789-80fe-3e71-93c4-ba16f46f1b75",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2013",
+        "name": "Luftbild 2013",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/truedop_2013",
+      "typ" : "WMS",
+      "layers" : "truedop_2013",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "1b214cf5-ef58-3ca9-975a-ebbf9ffa568f",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2014",
+        "name": "Luftbild 2014",
+     "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2014",
+      "typ" : "WMS",
+      "layers" : "dop_2014",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "e7b59db7-553a-3a47-93a5-70889f6dc77b",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2015",
+        "name": "Luftbild 2015",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2015",
+      "typ" : "WMS",
+      "layers" : "dop_2015_rgb",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "f81f42b6-0d14-353c-84dc-fafd55962710",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2016",
+        "name": "Luftbild 2016",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2016",
+      "typ" : "WMS",
+      "layers" : "dop_2016",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "eed6a16b-f86d-3ebe-8c92-0c7d32a6b465",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2017",
+        "name": "Luftbild 2017",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2017",
+      "typ" : "WMS",
+      "layers" : "dop_2017",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "947b53e4-f014-3f12-b7a9-f6438f29223e",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2018",
+        "name": "Luftbild 2018",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2018",
+      "typ" : "WMS",
+      "layers" : "dop_2018",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "6cc4151c-7031-4c73-b3a6-43b27b2e3b62",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2019",
+        "name": "Luftbild 2019",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2019",
+      "typ" : "WMS",
+      "layers" : "dop_2019",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "5b664b77-ca23-41cc-aba6-312245b559dd",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2020",
+        "name": "Luftbild 2020",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/truedop_2020_sommer",
+      "typ" : "WMS",
+      "layers" : "truedop_2020_sommer_rgb",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "95a1430d-04e9-434b-ba1e-9cd9f0e673b6",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2021",
+        "name": "Luftbild 2021",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2021",
+      "typ" : "WMS",
+      "layers" : "dop_2021_rgb",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "ef0c8276-78af-4444-969f-d01bb7d3c841",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+    {
+        "id": "Luft_2022",
+        "name": "Luftbild 2022",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/truedop_2022",
+      "typ" : "WMS",
+      "layers" : "truedop_2022",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "bf885681-6daa-4ce7-8bc5-15fdba32f268",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+
+	    {
+        "id": "Luft_2023",
+        "name": "Luftbild 2023",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/truedop_2023",
+      "typ" : "WMS",
+      "layers" : "truedop_2023",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "c68a287b-7ad0-4cc9-87f5-2cffebaf7113",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+
+	{
+        "id": "Luft_2024",
+        "name": "Luftbild 2024",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/truedop_2024",
+      "typ" : "WMS",
+      "layers" : "truedop_2024",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "aff8a8a5-2b48-44e8-949b-ea5f7d382a4f",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },
+	{
+        "id": "Luft_2025",
+        "name": "Luftbild 2025",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/dop_2025_fruehjahr",
+      "typ" : "WMS",
+      "layers" : "dop_2025",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "73a3de47-ab2a-4be2-ae5d-8d6f8fe5cc1c",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },    
+          {
+        "id": "schu_spo_einschul",
+        "name": "Einschulbereiche",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/schulen",
+      "typ" : "WMS",
+      "layers" : "schulen_esb",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "2656f411-e4e9-3e57-8dc7-b4533426e048",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "showAll",
+      "featureCount" : "10",
+      "gfiTheme" : "default",
+      "infoFormat" : "application/json",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   },    
+        {
+        "id": "schu_spo_schulen",
+        "name": "Schulen",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.berlin.de/services/wms/schulen",
+      "typ" : "WMS",
+      "layers" : "schulen",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "2656f411-e4e9-3e57-8dc7-b4533426e048",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "showAll",
+      "featureCount" : "10",
+      "gfiTheme" : "default",
+      "infoFormat" : "application/json",
+      "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
+      "singleTile" : true
+   }, 
+    {
+        "id": "schu_spo_schul_öff_2023_04_17",
+        "name": "Öffentliche Schulen",
+        "name_lang": "Öffentliche Schulen",
+        "url": "../resources/geojson/Schulen_öffentlich_2023_04_17.geojson",
+        "typ": "GeoJSON",
+        "gfiAttributes": {
+            "bsn": "Schulnummer",
+            "name": "Schulname",
+            "Schulart": "Schulart",
+            "traeger": "Träger",
+            "schultyp": "Schultyp",
+            "bezirk": "Bezirk",
+            "ortsteil": "Ortsteil",
+            "plz": "PLZ",
+            "strasse": "Straße",
+            "hausnr": "Hausnummer",
+            "telefon": "Telefon",
+            "fax": "Telefax",
+            "email": "E-Mail",
+            "internet": "Link"
+        },
+        "legend": "ignore",
+        "gfiTheme": "default"
+    },        
+{
+        "id": "schu_spo_schul_priv_2023_04_17",
+        "name": "Private Schulen",
+        "name_lang": "Private Schulen",
+        "url": "../resources/geojson/Schulen_privat_2023_04_17.geojson",
+        "typ": "GeoJSON",
+        "gfiAttributes": {
+            "bsn": "Schulnummer",
+            "name": "Schulname",
+            "Schulart": "Schulart",
+            "traeger": "Träger",
+            "schultyp": "Schultyp",
+            "bezirk": "Bezirk",
+            "ortsteil": "Ortsteil",
+            "plz": "PLZ",
+            "strasse": "Straße",
+            "hausnr": "Hausnummer",
+            "telefon": "Telefon",
+            "fax": "Telefax",
+            "email": "E-Mail",
+            "internet": "Link"
+        },
+        "legend": "ignore",
+        "gfiTheme": "default"
+    },
+    {
+        "id": "Verkehrslage",
+        "name": "Verkehrslage",
+        "url": "https://api.viz.berlin.de/geoserver/mdh/wms?",
+        "typ": "WMS",
+        "layers": "inrixosm",
+        "format": "image/png",
+        "version": "1.1.1",
+        "singleTile": true,
+        "transparent": true,
+        "transparency": 0,
+        "tilesize": "512",
+        "gutter": "0",
+        "minScale": "1500",
+        "maxScale": "3000000",
+        "gfiAttributes": "ignore",
+        "gfiTheme": "default",
+        "layerAttribution": "nicht vorhanden",
+        "cache": true,
+        "featureCount": "1",
+        "epsg": "EPSG:25833",
+        "legend": "https://api.viz.berlin.de/geoserver/www/legende_los.png",
+        "datasets": [{
+            "md_id": "verkehrslage",
+            "md_name": "Verkehrslage",
+            "csw_url": "https://api.viz.berlin.de/csw"
+        }]
+    },
+    {
+        "id": "Baustellen_OCIT",
+        "name": "Baustellen, Sperrungen und sonstige Störungen",
+        "url": "https://api.viz.berlin.de/daten/baustellen_sperrungen.json",
+        "typ": "GeoJSON",
+        "minScale": "0",
+        "maxScale": "210000",
+        "searchField": [
+            "street",
+            "section",
+            "content"
+        ],
+        "gfiAttributes": {
+            "subtype": "Typ",
+            "severity": "Auswirkung",
+            "@validity.from": "Gültig ab",
+            "@validity.to": "Gültig bis",
+            "street": "Straße",
+            "section": "Abschnitt",
+            "content": "Beschreibung"
+        },
+        "layerAttribution": "Quelle: Senatsverwaltung für Verkehr Berlin",
+        "legendURL": "",
+        "gfiTheme": "default",
+        "datasets": [{
+            "md_id": "roadworks",
+            "md_name": "translate#common:berlinLayers.baustellen",
+            "csw_url": "https://api.viz.berlin.de/csw"
+        }]
+    },
+    {
+        "id": "strassenbefahrung:aa_verkehrszeichen",
+        "name": "Straßenbefahrung - Verkehrszeichen",
+        "name_lang": "Straßenbefahrung - Verkehrszeichen (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "aa_verkehrszeichen",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ab_touchpoint",
+        "name": "Straßenbefahrung - Touchpoint",
+        "name_lang": "Straßenbefahrung - Touchpoint (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ab_touchpoint",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ac_trinkwasserbrunnen_wasserspender",
+        "name": "Straßenbefahrung - Trinkwasserbrunnen Wasserspender",
+        "name_lang": "Straßenbefahrung - Trinkwasserbrunnen Wasserspender (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ac_trinkwasserbrunnen_wasserspender",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ad_uhr",
+        "name": "Straßenbefahrung - Uhr",
+        "name_lang": "Straßenbefahrung - Uhr (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ad_uhr",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ae_viz_infotafel",
+        "name": "Straßenbefahrung - VIZ-Infotafel",
+        "name_lang": "Straßenbefahrung - VIZ-Infotafel (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ae_viz_infotafel",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:af_wasserpumpen_brunnen",
+        "name": "Straßenbefahrung - Wasserpumpen Brunnen",
+        "name_lang": "Straßenbefahrung - Wasserpumpen Brunnen (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "af_wasserpumpen_brunnen",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ag_werbesaeule",
+        "name": "Straßenbefahrung - Werbesäule",
+        "name_lang": "Straßenbefahrung - Werbesäule (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ag_werbesaeule",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ah_abfallbehaelter_muellbox",
+        "name": "Straßenbefahrung - Abfallbehälter Müllbox",
+        "name_lang": "Straßenbefahrung - Abfallbehälter Müllbox (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ah_abfallbehaelter_muellbox",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ai_anforderungstaster_radverkehr",
+        "name": "Straßenbefahrung - Anforderungstaster Radverkehr",
+        "name_lang": "Straßenbefahrung - Anforderungstaster Radverkehr (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ai_anforderungstaster_radverkehr",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:aj_anlegestelle",
+        "name": "Straßenbefahrung - Anlegestelle",
+        "name_lang": "Straßenbefahrung - Anlegestelle (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "aj_anlegestelle",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ak_briefkasten",
+        "name": "Straßenbefahrung - Briefkasten",
+        "name_lang": "Straßenbefahrung - Briefkasten (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ak_briefkasten",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:al_durchfahrtshoehe",
+        "name": "Straßenbefahrung - Durchfahrtshöhe",
+        "name_lang": "Straßenbefahrung - Durchfahrtshöhe (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "al_durchfahrtshoehe",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:am_fahnenmast",
+        "name": "Straßenbefahrung - Fahnenmast",
+        "name_lang": "Straßenbefahrung - Fahnenmast (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "am_fahnenmast",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:an_fahrbahnmarkierung_piktogramm",
+        "name": "Straßenbefahrung - Fahrbahnmarkierung Piktogramm",
+        "name_lang": "Straßenbefahrung - Fahrbahnmarkierung Piktogramm (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "an_fahrbahnmarkierung_piktogramm",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ao_gebaeudeeingang",
+        "name": "Straßenbefahrung - Gebäudeeingang",
+        "name_lang": "Straßenbefahrung - Gebäudeeingang (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ao_gebaeudeeingang",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ap_handsteuergeraet_lsa",
+        "name": "Straßenbefahrung - Handsteuergerät Lichtsignalanlage",
+        "name_lang": "Straßenbefahrung - Handsteuergerät Lichtsignalanlage (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ap_handsteuergeraet_lsa",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:aq_hydrant",
+        "name": "Straßenbefahrung - Hydrant",
+        "name_lang": "Straßenbefahrung - Hydrant (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "aq_hydrant",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ar1_kabelkasten",
+        "name": "Straßenbefahrung - Kabelkasten Schaltkasten",
+        "name_lang": "Straßenbefahrung - Kabelkasten Schaltkasten (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ar1_kabelkasten",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ar_kanaldeckel",
+        "name": "Straßenbefahrung - Kanaldeckel",
+        "name_lang": "Straßenbefahrung - Kanaldeckel (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ar_kanaldeckel",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:as_mast",
+        "name": "Straßenbefahrung - Mast",
+        "name_lang": "Straßenbefahrung - Mast (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "as_mast",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:at_mast_lsa",
+        "name": "Straßenbefahrung - Mast Lichtsignalanlage",
+        "name_lang": "Straßenbefahrung - Mast Lichtsignalanlage (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "at_mast_lsa",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:au_parkscheinautomat",
+        "name": "Straßenbefahrung - Parkscheinautomat",
+        "name_lang": "Straßenbefahrung - Parkscheinautomat (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "au_parkscheinautomat",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:av_poller",
+        "name": "Straßenbefahrung - Poller",
+        "name_lang": "Straßenbefahrung - Poller (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "av_poller",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:aw_spielgeraet",
+        "name": "Straßenbefahrung - Spielgerät",
+        "name_lang": "Straßenbefahrung - Spielgerät (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "aw_spielgeraet",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ax_strassensinkkasten",
+        "name": "Straßenbefahrung - Strassensinkkasten",
+        "name_lang": "Straßenbefahrung - Strassensinkkasten (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ax_strassensinkkasten",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ay_streugutbehaelter",
+        "name": "Straßenbefahrung - Streugutbehälter",
+        "name_lang": "Straßenbefahrung - Streugutbehälter (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ay_streugutbehaelter",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:az_taxirufsaeule",
+        "name": "Straßenbefahrung - Taxirufsäule",
+        "name_lang": "Straßenbefahrung - Taxirufsäule (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "az_taxirufsaeule",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ba_telefonzelle_telefonstele",
+        "name": "Straßenbefahrung - Telefonzelle Telefonstele",
+        "name_lang": "Straßenbefahrung - Telefonzelle Telefonstele (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ba_telefonzelle_telefonstele",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bb_verkehrsschutzgitter",
+        "name": "Straßenbefahrung - Verkehrsschutzgitter",
+        "name_lang": "Straßenbefahrung - Verkehrsschutzgitter (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bb_verkehrsschutzgitter",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bc_aufmerksamkeitsstreifen",
+        "name": "Straßenbefahrung - Aufmerksamkeitsstreifen",
+        "name_lang": "Straßenbefahrung - Aufmerksamkeitsstreifen (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bc_aufmerksamkeitsstreifen",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bd_bordstein",
+        "name": "Straßenbefahrung - Bordstein",
+        "name_lang": "Straßenbefahrung - Bordstein (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bd_bordstein",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:be_fahrbahnmarkierunglinie",
+        "name": "Straßenbefahrung - Fahrbahnmarkierung_Linie",
+        "name_lang": "Straßenbefahrung - Fahrbahnmarkierung_Linie (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "be_fahrbahnmarkierunglinie",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bf_gelaender",
+        "name": "Straßenbefahrung - Geländer",
+        "name_lang": "Straßenbefahrung - Geländer (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bf_gelaender",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bg_leitplanke",
+        "name": "Straßenbefahrung - Leitplanke",
+        "name_lang": "Straßenbefahrung - Leitplanke (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bg_leitplanke",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bh_mauer",
+        "name": "Straßenbefahrung - Mauer",
+        "name_lang": "Straßenbefahrung - Mauer (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bh_mauer",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bi_schranke",
+        "name": "Straßenbefahrung - Schranke",
+        "name_lang": "Straßenbefahrung - Schranke (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bi_schranke",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bj_sitzbank",
+        "name": "Straßenbefahrung - Sitzbank",
+        "name_lang": "Straßenbefahrung - Sitzbank (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bj_sitzbank",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bk_strassenbegrenzung",
+        "name": "Straßenbefahrung - Straßenbegrenzung",
+        "name_lang": "Straßenbefahrung - Straßenbegrenzung (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bk_strassenbegrenzung",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bl_strassenentwaesserungsrinne",
+        "name": "Straßenbefahrung - Straßenentwässerungsrinne",
+        "name_lang": "Straßenbefahrung - Straßenentwässerungsrinne (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bl_strassenentwaesserungsrinne",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bm_zugangsbauwerk",
+        "name": "Straßenbefahrung - Zugangsbauwerk",
+        "name_lang": "Straßenbefahrung - Zugangsbauwerk (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bm_zugangsbauwerk",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bn_baumscheibe",
+        "name": "Straßenbefahrung - Baumscheibe",
+        "name_lang": "Straßenbefahrung - Baumscheibe (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bn_baumscheibe",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bo_denkmal",
+        "name": "Straßenbefahrung - Denkmal",
+        "name_lang": "Straßenbefahrung - Denkmal (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bo_denkmal",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bp_fahrbahnmarkierung_flaeche",
+        "name": "Straßenbefahrung - Fahrbahnmarkierung Fläche",
+        "name_lang": "Straßenbefahrung - Fahrbahnmarkierung Fläche (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bp_fahrbahnmarkierung_flaeche",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bq_fahrradstaender",
+        "name": "Straßenbefahrung - Fahrradständer",
+        "name_lang": "Straßenbefahrung - Fahrradständer (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bq_fahrradstaender",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:br_fahrgastunterstand",
+        "name": "Straßenbefahrung - Fahrgastunterstand",
+        "name_lang": "Straßenbefahrung - Fahrgastunterstand (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "br_fahrgastunterstand",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bs_induktionsschleife",
+        "name": "Straßenbefahrung - Induktionsschleife",
+        "name_lang": "Straßenbefahrung - Induktionsschleife (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bs_induktionsschleife",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bt_kabelschacht",
+        "name": "Straßenbefahrung - Kabelschacht",
+        "name_lang": "Straßenbefahrung - Kabelschacht (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bt_kabelschacht",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bu1_kleinbauten_sondernutzung",
+        "name": "Straßenbefahrung - Kleinbauten Sondernutzung",
+        "name_lang": "Straßenbefahrung - Kleinbauten Sondernutzung (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bu1_kleinbauten_sondernutzung",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bu_recycling_container",
+        "name": "Straßenbefahrung - Recycling-Container",
+        "name_lang": "Straßenbefahrung - Recycling-Container (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bu_recycling_container",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bv_springbrunnen_zierbrunnen",
+        "name": "Straßenbefahrung - Springbrunnen Zierbrunnen",
+        "name_lang": "Straßenbefahrung - Springbrunnen Zierbrunnen (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bv_springbrunnen_zierbrunnen",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bw_aufmerksamkeitsfeld",
+        "name": "Straßenbefahrung - Aufmerksamkeitsfeld",
+        "name_lang": "Straßenbefahrung - Aufmerksamkeitsfeld (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bw_aufmerksamkeitsfeld",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bx_fahrbahnschwelle",
+        "name": "Straßenbefahrung - Fahrbahnschwelle",
+        "name_lang": "Straßenbefahrung - Fahrbahnschwelle (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bx_fahrbahnschwelle",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:by_gehwegueberfahrt",
+        "name": "Straßenbefahrung - Gehwegüberfahrt",
+        "name_lang": "Straßenbefahrung - Gehwegüberfahrt (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "by_gehwegueberfahrt",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:bz_gleiskoerper_strab",
+        "name": "Straßenbefahrung - Gleiskörper Straßenbahn",
+        "name_lang": "Straßenbefahrung - Gleiskörper Straßenbahn (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "bz_gleiskoerper_strab",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ca_haltebereich_bus",
+        "name": "Straßenbefahrung - Haltebereich Bus",
+        "name_lang": "Straßenbefahrung - Haltebereich Bus (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ca_haltebereich_bus",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:cb_haltestellenwartebereich",
+        "name": "Straßenbefahrung - Haltestellenwartebereich",
+        "name_lang": "Straßenbefahrung - Haltestellenwartebereich (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "cb_haltestellenwartebereich",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:cc_treppe",
+        "name": "Straßenbefahrung - Treppe",
+        "name_lang": "Straßenbefahrung - Treppe (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "cc_treppe",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:cd_rampe",
+        "name": "Straßenbefahrung - Rampe",
+        "name_lang": "Straßenbefahrung - Rampe (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "cd_rampe",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ce_gruenflaeche",
+        "name": "Straßenbefahrung - Grünfläche",
+        "name_lang": "Straßenbefahrung - Grünfläche (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ce_gruenflaeche",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:cf_trennstreifen",
+        "name": "Straßenbefahrung - Trennstreifen",
+        "name_lang": "Straßenbefahrung - Trennstreifen (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "infoFormat": "application/json",
+        "gfiAttributes": "showAll",
+        "layers": "cf_trennstreifen",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:cg_baustelle",
+        "name": "Straßenbefahrung - Baustelle",
+        "name_lang": "Straßenbefahrung - Baustelle (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "cg_baustelle",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ch_radweg",
+        "name": "Straßenbefahrung - Radweg",
+        "name_lang": "Straßenbefahrung - Radweg (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ch_radweg",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ci_oeffentlicher_platz",
+        "name": "Straßenbefahrung - Öffentlicher Platz",
+        "name_lang": "Straßenbefahrung - Öffentlicher Platz (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ci_oeffentlicher_platz",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:cj_fussgaengerzone",
+        "name": "Straßenbefahrung - Fussgängerzone",
+        "name_lang": "Straßenbefahrung - Fussgängerzone (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "cj_fussgaengerzone",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "minScale": "100.0",
+        "maxScale": "11000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:ck_parkflaeche",
+        "name": "Straßenbefahrung - Parkfläche",
+        "name_lang": "Straßenbefahrung - Parkfläche (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "ck_parkflaeche",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:cl_gehweg",
+        "name": "Straßenbefahrung - Gehweg",
+        "name_lang": "Straßenbefahrung - Gehweg (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "cl_gehweg",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "maxScale": "30000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:cm_fahrbahn",
+        "name": "Straßenbefahrung - Fahrbahn",
+        "name_lang": "Straßenbefahrung - Fahrbahn (Straßenbefahrung 2014)",
+        "crs": "EPSG:25833",
+        "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "cm_fahrbahn",
+        "legend": true,
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json",
+        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+    },
+    {
+        "id": "strassenbefahrung:wfs:ah_abfallbehaelter_muellbox",
+        "name": "Straßenbefahrung - Abfallbehälter Müllbox",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ah_abfallbehaelter_muellbox",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ai_anforderungstaster_radverkehr",
+        "name": "Straßenbefahrung - Anforderungstaster Radverkehr",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ai_anforderungstaster_radverkehr",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:aj_anlegestelle",
+        "name": "Straßenbefahrung - Anlegestelle",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:aj_anlegestelle",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bw_aufmerksamkeitsfeld",
+        "name": "Straßenbefahrung - Aufmerksamkeitsfeld",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bw_aufmerksamkeitsfeld",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bc_aufmerksamkeitsstreifen",
+        "name": "Straßenbefahrung - Aufmerksamkeitsstreifen",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bc_aufmerksamkeitsstreifen",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bn_baumscheibe",
+        "name": "Straßenbefahrung - Baumscheibe",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bn_baumscheibe",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:cg_baustelle",
+        "name": "Straßenbefahrung - Baustelle",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:cg_baustelle",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bd_bordstein",
+        "name": "Straßenbefahrung - Bordstein",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bd_bordstein",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ak_briefkasten",
+        "name": "Straßenbefahrung - Briefkasten",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ak_briefkasten",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bo_denkmal",
+        "name": "Straßenbefahrung - Denkmal",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bo_denkmal",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:al_durchfahrtshoehe",
+        "name": "Straßenbefahrung - Durchfahrtshöhe",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:al_durchfahrtshoehe",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:am_fahnenmast",
+        "name": "Straßenbefahrung - Fahnenmast",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:am_fahnenmast",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:cm_fahrbahn",
+        "name": "Straßenbefahrung - Fahrbahn",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:cm_fahrbahn",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bp_fahrbahnmarkierung_flaeche",
+        "name": "Straßenbefahrung - Fahrbahnmarkierung Fläche",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bp_fahrbahnmarkierung_flaeche",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:an_fahrbahnmarkierung_piktogramm",
+        "name": "Straßenbefahrung - Fahrbahnmarkierung Piktogramm",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:an_fahrbahnmarkierung_piktogramm",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:be_fahrbahnmarkierunglinie",
+        "name": "Straßenbefahrung - Fahrbahnmarkierung_Linie",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:be_fahrbahnmarkierunglinie",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bx_fahrbahnschwelle",
+        "name": "Straßenbefahrung - Fahrbahnschwelle",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bx_fahrbahnschwelle",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:br_fahrgastunterstand",
+        "name": "Straßenbefahrung - Fahrgastunterstand",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:br_fahrgastunterstand",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bq_fahrradstaender",
+        "name": "Straßenbefahrung - Fahrradständer",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bq_fahrradstaender",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:cj_fussgaengerzone",
+        "name": "Straßenbefahrung - Fussgängerzone",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:cj_fussgaengerzone",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ao_gebaeudeeingang",
+        "name": "Straßenbefahrung - Gebäudeeingang",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ao_gebaeudeeingang",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:cl_gehweg",
+        "name": "Straßenbefahrung - Gehweg",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:cl_gehweg",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:by_gehwegueberfahrt",
+        "name": "Straßenbefahrung - Gehwegüberfahrt",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:by_gehwegueberfahrt",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bf_gelaender",
+        "name": "Straßenbefahrung - Geländer",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bf_gelaender",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bz_gleiskoerper_strab",
+        "name": "Straßenbefahrung - Gleiskörper Straßenbahn",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bz_gleiskoerper_strab",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ce_gruenflaeche",
+        "name": "Straßenbefahrung - Grünfläche",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ce_gruenflaeche",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ca_haltebereich_bus",
+        "name": "Straßenbefahrung - Haltebereich Bus",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ca_haltebereich_bus",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:cb_haltestellenwartebereich",
+        "name": "Straßenbefahrung - Haltestellenwartebereich",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:cb_haltestellenwartebereich",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ap_handsteuergeraet_lsa",
+        "name": "Straßenbefahrung - Handsteuergerät Lichtsignalanlage",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ap_handsteuergeraet_lsa",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:aq_hydrant",
+        "name": "Straßenbefahrung - Hydrant",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:aq_hydrant",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bs_induktionsschleife",
+        "name": "Straßenbefahrung - Induktionsschleife",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bs_induktionsschleife",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ar1_kabelkasten",
+        "name": "Straßenbefahrung - Kabelkasten Schaltkasten",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ar1_kabelkasten",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bt_kabelschacht",
+        "name": "Straßenbefahrung - Kabelschacht",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bt_kabelschacht",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ar_kanaldeckel",
+        "name": "Straßenbefahrung - Kanaldeckel",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ar_kanaldeckel",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bu1_kleinbauten_sondernutzung",
+        "name": "Straßenbefahrung - Kleinbauten Sondernutzung",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bu1_kleinbauten_sondernutzung",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bg_leitplanke",
+        "name": "Straßenbefahrung - Leitplanke",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bg_leitplanke",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:as_mast",
+        "name": "Straßenbefahrung - Mast",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:as_mast",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:at_mast_lsa",
+        "name": "Straßenbefahrung - Mast Lichtsignalanlage",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:at_mast_lsa",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bh_mauer",
+        "name": "Straßenbefahrung - Mauer",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bh_mauer",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ck_parkflaeche",
+        "name": "Straßenbefahrung - Parkfläche",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ck_parkflaeche",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:au_parkscheinautomat",
+        "name": "Straßenbefahrung - Parkscheinautomat",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:au_parkscheinautomat",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:av_poller",
+        "name": "Straßenbefahrung - Poller",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:av_poller",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ch_radweg",
+        "name": "Straßenbefahrung - Radweg",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ch_radweg",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:cd_rampe",
+        "name": "Straßenbefahrung - Rampe",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:cd_rampe",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bu_recycling_container",
+        "name": "Straßenbefahrung - Recycling-Container",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bu_recycling_container",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bi_schranke",
+        "name": "Straßenbefahrung - Schranke",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bi_schranke",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bj_sitzbank",
+        "name": "Straßenbefahrung - Sitzbank",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bj_sitzbank",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:aw_spielgeraet",
+        "name": "Straßenbefahrung - Spielgerät",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:aw_spielgeraet",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bv_springbrunnen_zierbrunnen",
+        "name": "Straßenbefahrung - Springbrunnen Zierbrunnen",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bv_springbrunnen_zierbrunnen",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ax_strassensinkkasten",
+        "name": "Straßenbefahrung - Strassensinkkasten",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ax_strassensinkkasten",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bk_strassenbegrenzung",
+        "name": "Straßenbefahrung - Straßenbegrenzung",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bk_strassenbegrenzung",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bl_strassenentwaesserungsrinne",
+        "name": "Straßenbefahrung - Straßenentwässerungsrinne",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bl_strassenentwaesserungsrinne",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ay_streugutbehaelter",
+        "name": "Straßenbefahrung - Streugutbehälter",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ay_streugutbehaelter",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:az_taxirufsaeule",
+        "name": "Straßenbefahrung - Taxirufsäule",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:az_taxirufsaeule",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ba_telefonzelle_telefonstele",
+        "name": "Straßenbefahrung - Telefonzelle Telefonstele",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ba_telefonzelle_telefonstele",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ab_touchpoint",
+        "name": "Straßenbefahrung - Touchpoint",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ab_touchpoint",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:cf_trennstreifen",
+        "name": "Straßenbefahrung - Trennstreifen",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "outputFormat": "XML",
+        "version": "1.3.0",
+        "featureType": "strassenbefahrung:cf_trennstreifen",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:cc_treppe",
+        "name": "Straßenbefahrung - Treppe",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:cc_treppe",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ac_trinkwasserbrunnen_wasserspender",
+        "name": "Straßenbefahrung - Trinkwasserbrunnen Wasserspender",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ac_trinkwasserbrunnen_wasserspender",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ad_uhr",
+        "name": "Straßenbefahrung - Uhr",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ad_uhr",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ae_viz_infotafel",
+        "name": "Straßenbefahrung - VIZ-Infotafel",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ae_viz_infotafel",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bb_verkehrsschutzgitter",
+        "name": "Straßenbefahrung - Verkehrsschutzgitter",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bb_verkehrsschutzgitter",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:aa_verkehrszeichen",
+        "name": "Straßenbefahrung - Verkehrszeichen",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:aa_verkehrszeichen",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:af_wasserpumpen_brunnen",
+        "name": "Straßenbefahrung - Wasserpumpen Brunnen",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:af_wasserpumpen_brunnen",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ag_werbesaeule",
+        "name": "Straßenbefahrung - Werbesäule",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ag_werbesaeule",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:bm_zugangsbauwerk",
+        "name": "Straßenbefahrung - Zugangsbauwerk",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:bm_zugangsbauwerk",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "strassenbefahrung:wfs:ci_oeffentlicher_platz",
+        "name": "Straßenbefahrung - Öffentlicher Platz",
+        "crs": "urn:ogc:def:crs:EPSG::25833",
+        "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
+        "typ": "WFS",
+        "featureType": "strassenbefahrung:ci_oeffentlicher_platz",
+        "featureNS": "strassenbefahrung",
+        "datasets": [{
+            "md_name": "Straßenbefahrung 2014",
+            "md_id": "7a97a60b-2c8f-3bb6-905c-66d26ee0a52a",
+            "rs_id": "https://registry.gdi-de.org/id/de.be.csw/d84c1b61-6efa-31ac-9a6d-9b4ed4a78585",
+            "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+        }],
+        "gfiAttributes": "showAll"
+    },
+    {
+        "id": "360grad",
+        "url": "../resources/geojson/360fotos.geojson",
+        "typ": "GeoJSON",
+        "gfiAttributes": {
+            "timestamp": {
+                "name": "Aufnahmedatum",
+                "condition": "contains",
+                "type": "date",
+                "format": "DD.MM.YY"
+            },
+            "Vorschau": {
+                "name": "Foto",
+                "type": "html",
+                "html": {
+                    "tag": "iframe",
+                    "properties": {
+                        "src": "%value%",
+                        "width": "500px",
+                        "height": "500px",
+                        "frameborder": "0",
+                        "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                        "allowfullscreen": true
+                    }
+                }
+            }
+        },
+        "legend": "ignore",
+        "gfiTheme": "default"
+    },
+    {
+        "id": "maske",
+        "name": "Umgebungsmaske",
+        "url": "../resources/geojson/Maske.geojson",
+        "typ": "GeoJSON",
+        "gfiAttributes": "ignore",
+        "legend": "ignore",
+        "gfiTheme": "default"
+    },
+{
+        "id": "minimap",
+		"name": "basemap.de Web Raster Farbe",
+        "name_lang": "basemap.de Web Raster Farbe",
+        "capabilitiesUrl": "https://sgx.geodatenzentrum.de/wmts_basemapde/1.0.0/WMTSCapabilities.xml",
+        "url": "https://sgx.geodatenzentrum.de/wmts_basemapde/1.0.0/",
+        "typ": "WMTS",
+        "tileMatrixSet": "DE_EPSG_25833_ADV",
+        "layers": "de_basemapde_web_raster_farbe",
+        "optionsFromCapabilities": true,
+		"gfiAttributes": "showAll",
+        "crs": "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "legend": "https://sgx.geodatenzentrum.de/wms_basemapde?format=image%2Fpng&layer=de_basemapde_web_raster_farbe&sld_version=1.1.0&request=GetLegendGraphic&service=WMS&version=1.1.1&styles=",
+        "datasets": [
+            {
+                "md_id": "FE1D2837-ABE0-46B5-9821-BB11BAF22531",
+                "rs_id": "https://registry.gdi-de.org/id/de.bund.bkg.csw/68f48957-a20f-3d93-bd62-e59ce6bd99fa",
+                "csw_url": "https://gdk.gdi-de.org/gdi-de/srv/ger/csw",
+                "show_doc_url": "https://gdz.bkg.bund.de/index.php/default/wmts-basemapde-webraster-wmts-basemapde-webraster.html#"
+            }
+        ]
+    }
+
+]

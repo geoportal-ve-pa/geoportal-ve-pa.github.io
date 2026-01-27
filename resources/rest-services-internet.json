@@ -1,0 +1,74 @@
+[
+  {
+        "id": "10",
+        "name": "OSM Suche",
+        "url": "https://nominatim.openstreetmap.org/search?",
+        "typ": "WFS"
+    },
+    {
+        "id": "11",
+        "name": "Komoot Photon Suche",
+        "url": "https://photon.komoot.io/api/?",
+        "typ": "WFS"
+    },
+  {
+    "id": "4",
+    "name": "BKG Geokodierungsdienst Suggest",
+    "url": "/bkg_suggest",
+    "typ": "GDZ"
+  },
+  {
+    "id": "5",
+    "name": "BKG Geokodierungsdienst Geosearch",
+    "url": "/bkg_geosearch",
+    "typ": "GDZ"
+  },
+  {
+	"id": "mapfish_printservice_id",	 
+	"name": "Mapfish Print Service",
+	"url" : "https://gdi.berlin.de/services/printing/",
+	"typ" : "PrintService"
+  },  
+  {
+	"id": "bkg_ors",
+	"name": "BKG OpenRoute",
+	"url": "https://sg.geodatenzentrum.de/web_ors_all__434a1079-7c34-8673-7b50-5b892cfa13d6",
+	"typ": "GDZ"
+  },
+  {
+    "id": "bkgors_alternative",
+    "name": "BKG OpenRoute",
+    "url": "https://geodatenportal.en-kreis.de/bkg_ors",
+    "typ": "GDZ"
+    },
+	{
+    "id": "elastic",
+    "name": "Elastic Prod",
+    "url": "https://geodienste.hamburg.de/layers/_search/template?source_content_type=application/json&source=",
+    "typ": "Search"
+  },
+{
+    "id": "elastic_prod",
+    "name": "Elastic Prod",
+    "url": "https://geodienste.hamburg.de/layers/_search/template",
+    "typ": "Search"
+  },
+{
+    "id": "alkis_flurstuecke:rest:flurstuecke",
+    "name": "Flurstücksuche",
+    "url": "https://gdi.berlin.de/services/wfs/alkis_flurstuecke?request=GetFeature&service=WFS&typeName=flurstuecke",
+    "typ": "WFS"
+  },
+{
+    "id": "lor_2021:rest:a_lor_plr_2021",
+    "name": "Planungsraumsuche",
+    "url": "https://gdi.berlin.de/services/wfs/lor_2021?request=GetFeature&service=WFS&typeName=a_lor_plr_2021",
+    "typ": "WFS"
+  },
+{
+    "id": "alkis_ortsteile:rest:ortsteile",
+    "name": "Ortsteile",
+    "url": "https://gdi.berlin.de/services/wfs/alkis_ortsteile?request=GetFeature&service=WFS&typeName=ortsteile",
+    "typ": "WFS"
+  }
+]

@@ -1,0 +1,71 @@
+ {
+  "globalAlerts": [],
+
+  "restrictedAlerts": {    
+    "https://geoportal.ba-pankow.verwalt-berlin.de/geoportal/pankow/": ["news_2025_04_22","willkommen"],
+    "https://geoportal.ba-pankow.verwalt-berlin.de/geoportal/vermessung/":["news_2025_04_22","news_2025_04_16","willkommen"]
+  },
+
+  "alerts": {
+      "beispiel1": {
+      "category": "info",
+      "title": "Nutzerumfrage 360°-Panoramabilder",
+      "content": "Wie nutzen Sie die 360°-Panoramabilder? Das möchten wir von Ihnen erfahren!<br> Nehmen Sie gerne an unserer Umfrage teil. Die Befragung dauert ca. 5 Minuten.<br><br>Folgen Sie direkt diesem Link:<br><a href='https://geowerkstatthamburg.limesurvey.net/982796?lang=de'>https://geowerkstatthamburg.limesurvey.net/982796?lang=de</a><br><br><img src='https://geofos.fhhnet.stadt.hamburg.de/Mastercode/2_24_1/img/Streetsmart.jpg' alt='LGV Panoramabild' width='250' height='226'><br>Ihre Daten werden anonym erfasst und nicht an Dritte weitergegeben.<br><br>Ihr Team LGV Befahrungsdaten",
+      "displayFrom": "2022-08-24 05:00",
+      "displayUntil": "2024-09-28 23:59",
+      "creationDate": "01/09/22",
+      "mustBeConfirmed": true,
+      "once": true
+    },
+    "beispiel2": {
+      "title": "Das ist ein sehr langer Titel Das ist ein sehr langer Titel Das ist ein sehr langer Titel",
+      "category": "info",
+      "content": "Hier geht es zum <a target='_blank' href='https://geofos.fhhnet.stadt.hamburg.de/atlas-innere-sicherheit/'>alten Atlas Innere Sicherheit</a>, der<br> Ihnen noch für kurze Zeit zur Verfügung steht.<br> Für Fragen wenden Sie sich an die Fachliche Leiststelle <br>AIS unter <a href='mailto:referatA44@bis.hamburg.de'>referatA44@bis.hamburg.de</a>",
+      "once": false
+    },
+    "beispiel3": {
+      "displayClass": "info",
+      "category": "NEUIGKEITEN!",
+      "content": "<FONT SIZE=2.5><FONT COLOR=green>Sehr geehrte Nutzerinnen und Nutzer des GeoPortals Bremen, <br><br>ab sofort stehen Ihnen die aktuellen Orthophotos für die Stadtgemeinde Bremen aus der Befliegung 2023 im GeoPortal zur Verfügung. Die Karte finden Sie im Bereich der Hintergrundkarten: <i>Orthophotos Bremen - aktuell</i></FONT></FONT>",
+      "once": {
+          "days": 7
+       }        
+    },
+    "beispiel4": {
+      "displayClass": "info",
+      "title": "Hinweis - Leeren des Browsercaches",
+      "category": "Hinweis - Leeren des Browsercaches",
+      "content": "<FONT COLOR=black>Manchmal verhindern im Cache des Browsers hinterlegte Dateien, dass aktuelle Inhalte der Internetseiten angezeigt werden. Stattdessen werden die im Cache gespeicherten veralteten Daten geladen. Wenn der Cache gelöscht wird, kann anschließend die neueste Version der entsprechenden Webseite geladen werden. Eine Leerung des Caches ist deswegen oft hilfreich, Fehler zu beheben und bewirkt auch, dass Internetseiten wieder schneller geladen werden.<br><br>Euer Team<br>Geoinformation </FONT>",
+      "displayFrom": "2025-04-01 13:00",
+      "mustBeConfirmed": true
+    },
+	  
+    
+    
+    "news_2025_04_22": {
+      "displayClass": "info",
+      "title": "Aktualisierung ALKIS",
+      "category": "Aktualisierung ALKIS",
+      "content": "Liebe Nutzerinnen und Nutzer,<br><br>am Freitag (den 25.04.2025) ab 13:30 Uhr wird der ALKIS-Bestand des Geoportals aktualisiert. Es kann passieren, dass einige Funktionen nicht verfügbar werden.<br><br>Euer Team<br>Geoinformation",
+      "displayFrom": "2025-04-22 13:00",
+      "displayUntil": "2025-05-06 23:59",
+      "mustBeConfirmed": true        
+    },
+    "news_2025_04_16": {
+      "displayClass": "news",
+      "title": "Aktualisierung Baumbestand",
+      "category": "Aktualisierung Baumbestand",
+      "content": "Liebe Nutzerinnen und Nutzer,<br><br>der Baumbestand wurde aktualisiert und in das Geoportal eingepflegt. Falls noch mehr Nadelbaumarten gewünscht sind, bitte sagt Bescheid! Im Datensatz gab es leider Bäume, deren keine Art zugewiesen worden ist. Ich habe mich entschieden, die Bäume in einem separaten Layer einzupflegen.<br><br>Euer Team<br>Geoinformation",
+      "displayFrom": "2025-04-16 13:00",
+      "displayUntil": "2025-04-29 23:59",
+      "mustBeConfirmed": true
+    },
+    "willkommen": {
+      "displayClass": "info",
+      "category": "Willkommen",
+      "content": "<img src='../resources/img/B_BA_W_PA_Logo_DE_V_PT_RGB1.svg'><br><br>Liebe Nutzerinnen und Nutzer,<br><br>ab sofort steht euch das Geoportal in neuem look zur Verfügung. Solltet Ihr fragen zur benutzung haben, wendet euch an uns. In einer kurzen Schulung werden wir euch dann die grundlegenden Funktionen vorstellen und erläutern, wie das Geoportal strukturiert ist. Anfragen schickt ihr bitte wie gewohnt an<br><br> <a href= 'mailto:verm-gi@ba-pankow.berlin.de'>verm-gi@ba-pankow.berlin.de</a> <br><br>Bis dahin, viel Spaß beim Stöbern und Entdecken. <br><br>Euer Team<br>Geoinformation",
+      "displayFrom": "2025-01-01 13:00",
+      "mustBeConfirmed": true
+    }
+  }
+}

@@ -1,0 +1,735 @@
+[{
+        "styleId": "360grad",
+        "rules": [{
+            "style": {
+                "legendValue": "Stadtrand",
+                "type": "icon",
+                "imageName": "location-pin-red.png",
+                "imageWidth": 10,
+                "imageHeight": 10,
+                "imageScale": 0.15
+            }
+        }]
+    },
+    {
+        "styleId": "Grundbuch.style",
+        "rules": [{
+            "style": {
+                "polygonStrokeColor": [0, 0, 0, 0],
+                "polygonStrokeWidth": 2,
+                "polygonFillColor": [0, 0, 0, 0],
+                "legendValue": "GB"
+            }
+        }]
+    },
+	{
+        "styleId": "StorkStr97.Geschoss.LI",
+        "rules": [{
+		"conditions": {
+                    "properties": {
+                        
+                    }
+                },
+
+               
+                "style": {
+                    "lineStrokeColor": [0, 0, 0, 1],
+                    "lineStrokeWidth": 1.5,
+                    "lineStrokeDash": [0, 0]
+                }
+            }
+
+        ]
+    },
+    {
+        "styleId": "StorkStr97.Geschoss.FL",
+        "rules": [{
+                "conditions": {
+                    "properties": {
+                        "Stift": 7.0
+                    }
+                },
+                "style": {
+                    "polygonStrokeColor": [247, 210, 231, 1],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [247, 210, 231, 1]
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "Stift": 3.0
+                    }
+                },
+                "style": {
+                    "polygonStrokeColor": [255, 234, 170, 1],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [255, 234, 170, 1]
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "Stift": 2.0
+                    }
+                },
+                "style": {
+                    "polygonStrokeColor": [255, 212, 170, 1],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [255, 212, 170, 1]
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "Stift": 66.0
+                    }
+                },
+                "style": {
+                    "polygonStrokeColor": [212, 255, 170, 1],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [212, 255, 170, 1]
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "Stift": 77.0
+                    }
+                },
+                "style": {
+                    "polygonStrokeColor": [255, 255, 170, 1],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [255, 255, 170, 1]
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "Stift": 88.0
+                    }
+                },
+                "style": {
+                    "polygonStrokeColor": [213, 244, 255, 1],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [213, 244, 255, 1]
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "Stift": 99.0
+                    }
+                },
+                "style": {
+                    "polygonStrokeColor": [255, 127, 0, 1],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [255, 127, 0, 1]
+                }
+            }
+
+
+
+        ]
+    },
+    {
+        "styleId": "StorkStr97.Geschoss.P",
+        "rules": [{
+                "conditions": {
+                    "properties": {
+                        "HOEHE": 0.35   
+                 }
+                },
+                "style": {
+                    "circleRadius": 0,
+                    "circleStrokeColor": [97, 69, 222, 0],  
+                    "circleStrokeWidth": 0,
+                    "circleFillColor": [255, 255, 255, 0],
+                    "labelField": "Aufschrift",
+                    "textFont": "Arial",
+                    "textScale": 1.2,
+                    "textOffsetX": 0,
+                    "textOffsetY": 0,
+                    "textFillColor": [0, 0, 0, 1],
+                    "textStrokeColor": [255, 255, 255, 0.8],
+                    "textStrokeWidth": 1,
+                    "textbackgroundFill": [255, 255, 255, 1],
+                    "textbackgroundStroke": 20
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "HOEHE": 0.26
+                    }
+                },
+                "style": {
+		    "rotation": 90,
+		    "rotation.isDegree": true,  
+		    "rotation.value": 90,
+                    "circleRadius": 0,
+                    "circleStrokeColor": [97, 69, 222, 0],
+                    "circleStrokeWidth": 0,
+                    "circleFillColor": [255, 255, 255, 0],
+                    "labelField": "Aufschrift",
+                    "textFont": "Arial",
+                    "textScale": 1,
+                    "textOffsetX": 0,
+                    "textOffsetY": 0,
+                    "textFillColor": [0, 0, 0, 1],
+                    "textStrokeColor": [255, 255, 255, 1],
+                    "textStrokeWidth": 1,
+                    "textbackgroundFill": [255, 255, 255, 1],
+                    "textbackgroundStroke": 20
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "Maske.style",
+        "rules": [{
+            "style": {
+                "polygonStrokeColor": [0, 0, 0, 0],
+                "polygonStrokeWidth": 2,
+                "polygonFillColor": [200, 200, 200, 0.6],
+                "legendValue": "MA"
+            }
+        }]
+    },	
+    {
+        "styleId": "2003",
+        "rules": [{
+            "style": {
+                "polygonStrokeColor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "polygonStrokeWidth": 1,
+                "polygonFillColor": [
+                    10,
+                    200,
+                    0,
+                    0.2
+                ]
+            }
+        }]
+    },
+    {
+        "styleId": "8712",
+        "rules": [{
+                "conditions": {
+                    "properties": {
+                        "kapitelbezeichnung": "Grundschulen"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "imageName": "grundschulen.svg",
+                    "imageWidth": 40,
+                    "imageHeight": 40,
+                    "imageScale": 0.6
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "kapitelbezeichnung": "Gymnasien"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "imageName": "gymnasien.svg",
+                    "imageWidth": 40,
+                    "imageHeight": 40,
+                    "imageScale": 0.6
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "kapitelbezeichnung": "Stadtteilschulen"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "imageName": "stadtteilschulen.svg",
+                    "imageWidth": 40,
+                    "imageHeight": 40,
+                    "imageScale": 0.6
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "kapitelbezeichnung": "Sonderschulen"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "imageName": "sonderschulen.svg",
+                    "imageWidth": 40,
+                    "imageHeight": 40,
+                    "imageScale": 0.6
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "kapitelbezeichnung": "Berufliche Schulen"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "imageName": "berufliche_schulen.svg",
+                    "imageWidth": 40,
+                    "imageHeight": 40,
+                    "imageScale": 0.6
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "kapitelbezeichnung": "Langformschulen"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "imageName": "langformschulen.svg",
+                    "imageWidth": 40,
+                    "imageHeight": 40,
+                    "imageScale": 0.6
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "8712.1",
+        "rules": [{
+            "conditions": {
+                "properties": {
+                    "kapitelbezeichnung": "Grundschulen"
+                }
+            },
+            "style": {
+                "type": "icon",
+                "imageName": "grundschulen.svg",
+                "imageWidth": 40,
+                "imageHeight": 40,
+                "imageScale": 0.6
+            }
+        }]
+    },
+    {
+        "styleId": "8712.2",
+        "rules": [{
+                "conditions": {
+                    "properties": {
+                        "kapitelbezeichnung": "Stadtteilschulen"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "imageName": "stadtteilschulen.svg",
+                    "imageWidth": 40,
+                    "imageHeight": 40,
+                    "imageScale": 0.6
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "kapitelbezeichnung": "Langformschulen"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "imageName": "langformschulen.svg",
+                    "imageWidth": 40,
+                    "imageHeight": 40,
+                    "imageScale": 0.6
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "8712.3",
+        "rules": [{
+            "conditions": {
+                "properties": {
+                    "kapitelbezeichnung": "Gymnasien"
+                }
+            },
+            "style": {
+                "type": "icon",
+                "imageName": "gymnasien.svg",
+                "imageWidth": 40,
+                "imageHeight": 40,
+                "imageScale": 0.6
+            }
+        }]
+    },
+    {
+        "styleId": "8712.4",
+        "rules": [{
+            "conditions": {
+                "properties": {
+                    "kapitelbezeichnung": "Sonderschulen"
+                }
+            },
+            "style": {
+                "type": "icon",
+                "imageName": "sonderschulen.svg",
+                "imageWidth": 40,
+                "imageHeight": 40,
+                "imageScale": 0.6
+            }
+        }]
+    },
+    {
+        "styleId": "10882",
+        "rules": [{
+                "conditions": {
+                    "properties": {
+                        "symbol": "SFA"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "imageName": "sfa.png",
+                    "imageScale": 0.7,
+                    "clusterImageName": "br.png",
+                    "clusterImageScale": 0.7,
+                    "clusterImageOffsetX": 0.9,
+                    "clusterImageOffsetY": 0.1,
+                    "clusterTextFillColor": [
+                        69,
+                        96,
+                        166,
+                        1
+                    ],
+                    "clusterTextStrokeColor": [
+                        240,
+                        240,
+                        240,
+                        1
+                    ],
+                    "clusterTextType": "none"
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "symbol": "FSSA"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "imageName": "fssa.png",
+                    "imageScale": 0.7,
+                    "clusterImageName": "br.png",
+                    "clusterImageScale": 0.7,
+                    "clusterImageOffsetX": 0.9,
+                    "clusterImageOffsetY": 0.1,
+                    "clusterTextFillColor": [
+                        69,
+                        96,
+                        166,
+                        1
+                    ],
+                    "clusterTextStrokeColor": [
+                        240,
+                        240,
+                        240,
+                        1
+                    ],
+                    "clusterTextType": "none"
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "symbol": "Stpd"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "imageName": "stpd.png",
+                    "imageScale": 0.7,
+                    "clusterImageName": "br.png",
+                    "clusterImageScale": 0.7,
+                    "clusterImageOffsetX": 0.9,
+                    "clusterImageOffsetY": 0.1,
+                    "clusterTextFillColor": [
+                        69,
+                        96,
+                        166,
+                        1
+                    ],
+                    "clusterTextStrokeColor": [
+                        240,
+                        240,
+                        240,
+                        1
+                    ],
+                    "clusterTextType": "none"
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "symbol": "Stp"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "imageName": "stp.png",
+                    "imageScale": 0.7,
+                    "clusterImageName": "br.png",
+                    "clusterImageScale": 0.7,
+                    "clusterImageOffsetX": 0.9,
+                    "clusterImageOffsetY": 0.1,
+                    "clusterTextFillColor": [
+                        69,
+                        96,
+                        166,
+                        1
+                    ],
+                    "clusterTextStrokeColor": [
+                        240,
+                        240,
+                        240,
+                        1
+                    ],
+                    "clusterTextType": "none"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "18105",
+        "rules": [{
+                "conditions": {
+                    "properties": {
+                        "@Datastreams.0.Observations.0.result": [
+                            1,
+                            1000
+                        ]
+                    }
+                },
+                "style": {
+                    "legendValue": "StadtRäder verfügbar",
+                    "type": "icon",
+                    "imageName": "stadtrad.png",
+                    "clusterImageName": "stadtrad.png",
+                    "imageScale": 0.8,
+                    "imageOffsetY": 12,
+                    "imageOffsetYUnit": "pixel",
+                    "clusterImageScale": 0.4,
+                    "clusterImageOffsetY": 0.48
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "@Datastreams.0.Observations.0.result": 0
+                    }
+                },
+                "style": {
+                    "legendValue": "kein StadtRad verfügbar",
+                    "type": "icon",
+                    "imageName": "stadtrad_grau.png",
+                    "clusterImageName": "stadtrad_grau.png",
+                    "imageScale": 0.8,
+                    "imageOffsetY": 12,
+                    "imageOffsetYUnit": "pixel",
+                    "clusterImageScale": 0.4,
+                    "clusterImageOffsetY": 0.48
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "Baustellen_OCIT",
+        "rules": [{
+                "conditions": {
+                    "properties": {
+                        "icon": "sperrung",
+                        "is_future": true
+                    },
+                    "sequence": [0, 0]
+                },
+                "style": {
+                    "legendValue": "Geplante Sperrung",
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "circleFillColor": [211, 211, 211, 1],
+                    "imageName": "schild_sperrung_grau.png",
+                    "clusterImageName": "schild_sperrung_grau.png",
+                    "clusterTextFillColor": [51, 51, 51, 1],
+                    "clusterTextStrokeColor": [255, 255, 255, 1],
+                    "clusterTextStrokeWidth": 2,
+                    "imageScale": 0.8,
+                    "clusterImageScale": 0.8,
+                    "clusterTextScale": 1.2,
+                    "clusterTextOffsetX": 7,
+                    "clusterTextOffsetY": 7
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "icon": "baustelle",
+                        "is_future": true
+                    },
+                    "sequence": [0, 0]
+                },
+                "style": {
+                    "legendValue": "Geplante Baustelle/Bauarbeiten",
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "circleFillColor": [211, 211, 211, 1],
+                    "imageName": "schild_baustelle_grau.png",
+                    "clusterImageName": "schild_baustelle_grau.png",
+                    "clusterTextFillColor": [51, 51, 51, 1],
+                    "clusterTextStrokeColor": [255, 255, 255, 1],
+                    "clusterTextStrokeWidth": 2,
+                    "imageScale": 0.8,
+                    "clusterImageScale": 0.8,
+                    "clusterTextScale": 1.2,
+                    "clusterTextOffsetX": 7,
+                    "clusterTextOffsetY": 7
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "is_future": true
+                    },
+                    "sequence": [0, 0]
+                },
+                "style": {
+                    "legendValue": "Geplante sonstige Störungen",
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "circleFillColor": [211, 211, 211, 1],
+                    "imageName": "schild_warnung_grau.png",
+                    "clusterImageName": "schild_warnung_grau.png",
+                    "clusterTextFillColor": [51, 51, 51, 1],
+                    "clusterTextStrokeColor": [255, 255, 255, 1],
+                    "clusterTextStrokeWidth": 2,
+                    "imageScale": 0.8,
+                    "clusterImageScale": 0.8,
+                    "clusterTextScale": 1.2,
+                    "clusterTextOffsetX": 7,
+                    "clusterTextOffsetY": 7
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "is_future": true
+                    },
+                    "sequence": [1, 10]
+                },
+                "style": {
+                    "legendValue": "Geplanter betroffener Abschnitt",
+                    "lineStrokeWidth": 5,
+                    "lineStrokeColor": [96, 96, 96, 1],
+                    "lineStrokeDash": [5, 8],
+                    "lineStrokeCap": "butt",
+                    "circleRadius": 0,
+                    "type": "circle"
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "icon": "sperrung"
+                    },
+                    "sequence": [0, 0]
+                },
+                "style": {
+                    "legendValue": "Sperrung",
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "circleFillColor": [211, 211, 211, 1],
+                    "imageName": "schild_sperrung.png",
+                    "clusterImageName": "schild_sperrung.png",
+                    "clusterTextFillColor": [51, 51, 51, 1],
+                    "clusterTextStrokeColor": [255, 255, 255, 1],
+                    "clusterTextStrokeWidth": 2,
+                    "imageScale": 0.8,
+                    "clusterImageScale": 0.8,
+                    "clusterTextScale": 1.2,
+                    "clusterTextOffsetX": 7,
+                    "clusterTextOffsetY": 7
+                }
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "icon": "baustelle"
+                    },
+                    "sequence": [0, 0]
+                },
+                "style": {
+                    "legendValue": "Baustelle/Bauarbeiten",
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "circleFillColor": [211, 211, 211, 1],
+                    "imageName": "schild_baustelle.png",
+                    "clusterImageName": "schild_baustelle.png",
+                    "clusterTextFillColor": [51, 51, 51, 1],
+                    "clusterTextStrokeColor": [255, 255, 255, 1],
+                    "clusterTextStrokeWidth": 2,
+                    "imageScale": 0.8,
+                    "clusterImageScale": 0.8,
+                    "clusterTextScale": 1.2,
+                    "clusterTextOffsetX": 7,
+                    "clusterTextOffsetY": 7
+                }
+            },
+            {
+                "conditions": {
+                    "sequence": [0, 0]
+                },
+                "style": {
+                    "legendValue": "Sonstige Störungen",
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "circleFillColor": [211, 211, 211, 1],
+                    "imageName": "schild_warnung.png",
+                    "clusterImageName": "schild_warnung.png",
+                    "clusterTextFillColor": [51, 51, 51, 1],
+                    "clusterTextStrokeColor": [255, 255, 255, 1],
+                    "clusterTextStrokeWidth": 2,
+                    "imageScale": 0.8,
+                    "clusterImageScale": 0.8,
+                    "clusterTextScale": 1.2,
+                    "clusterTextOffsetX": 7,
+                    "clusterTextOffsetY": 7
+                }
+            },
+            {
+                "conditions": {
+                    "sequence": [1, 10]
+                },
+                "style": {
+                    "legendValue": "Betroffener Abschnitt",
+                    "lineStrokeWidth": 5,
+                    "lineStrokeColor": [180, 40, 40, 1],
+                    "lineStrokeDash": [5, 8],
+                    "lineStrokeCap": "butt",
+                    "circleRadius": 0,
+                    "type": "circle"
+                }
+            }
+        ]
+    }
+]

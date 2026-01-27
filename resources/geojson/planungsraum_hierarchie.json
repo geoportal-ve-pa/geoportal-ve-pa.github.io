@@ -1,0 +1,177 @@
+{    
+    "Buch": {
+        "id": "0310",
+        "bzr_name": [
+            {
+                "id": "Buch",
+                "plr_name": [
+                    "Bucher Forst",
+                    "Karower Chaussee",
+                    "Klinikum Buch"
+                ]
+            }
+        ]
+    },
+    "Nördlicher Prenzlauer Berg": {
+        "id": "0360",
+        "bzr_name": [
+            {
+                "id": "Helmholtzplatz",
+                "plr_name": [
+                    "Gethsemanekirche",
+                    "Helmholtzplatz",
+                    "Senefelderstraße"
+                ]
+            },
+            {
+                "id": "Prenzlauer Berg Nord",
+                "plr_name": [
+                    "Humannplatz",
+                    "Ostseestraße",
+                    "Rodenbergstraße"
+                ]
+            },
+            {
+                "id": "Prenzlauer Berg Nordwest",
+                "plr_name": [
+                    "Arnimplatz",
+                    "Falkplatz",
+                    "Malmöer Straße",
+                    "Norweger Viertel"
+                ]
+            },
+            {
+                "id": "Prenzlauer Berg Ost",
+                "plr_name": [
+                    "Alter Schlachthof",
+                    "Anton-Saefkow-Park",
+                    "Michelangelostraße",
+                    "Velodrom",
+                    "Volkspark Prenzlauer Berg"
+                ]
+            }
+        ]
+    },
+    "Nördliches Pankow": {
+        "id": "0320",
+        "bzr_name": [
+            {
+                "id": "Blankenfelde/Niederschönhausen",
+                "plr_name": [
+                    "Blankenfelde",
+                    "Herthaplatz",
+                    "Pastor-Niemöller-Platz",
+                    "Uhlandstraße"
+                ]
+            },
+            {
+                "id": "Buchholz",
+                "plr_name": [
+                    "Eddastraße",
+                    "Krugpfuhl",
+                    "Nisbléstraße"
+                ]
+            }
+        ]
+    },
+    "Nördliches Weißensee": {
+        "id": "0330",
+        "bzr_name": [
+            {
+                "id": "Blankenburg/Heinersdorf/Märchenland",
+                "plr_name": [
+                    "Blankenburg",
+                    "Blankenburger Süden",
+                    "Heinersdorf",
+                    "Märchenland"
+                ]
+            },
+            {
+                "id": "Karow",
+                "plr_name": [
+                    "Karow Bahnhof",
+                    "Karow Nord",
+                    "Karow Ost"
+                ]
+            }
+        ]
+    },
+    "Südlicher Prenzlauer Berg": {
+        "id": "0370",
+        "bzr_name": [
+            {
+                "id": "Prenzlauer Berg Süd",
+                "plr_name": [
+                    "Bötzowstraße",
+                    "Christburger Straße",
+                    "Immanuelkirchstraße",
+                    "Thälmannpark"
+                ]
+            },
+            {
+                "id": "Prenzlauer Berg Südwest",
+                "plr_name": [
+                    "Kollwitzplatz",
+                    "Sredzkistraße",
+                    "Teutoburger Platz"
+                ]
+            }
+        ]
+    },
+    "Südliches Pankow": {
+        "id": "0340",
+        "bzr_name": [
+            {
+                "id": "Pankow Süd",
+                "plr_name": [
+                    "Arnold-Zweig-Straße",
+                    "Kissingenviertel",
+                    "Pankower Tor",
+                    "Spiekermann Straße",
+                    "Tiroler Viertel",
+                    "Trelleborger Viertel"
+                ]
+            },
+            {
+                "id": "Pankow Zentrum",
+                "plr_name": [
+                    "Florakiez",
+                    "Garbátyplatz",
+                    "Parkstraße",
+                    "Schlosspark",
+                    "Wolfshagener Straße"
+                ]
+            },
+            {
+                "id": "Schönholz/Wilhelmsruh/Rosenthal",
+                "plr_name": [
+                    "Rosenthal",
+                    "Schönholz",
+                    "Wilhelmsruh"
+                ]
+            }
+        ]
+    },
+    "Südliches Weißensee": {
+        "id": "0350",
+        "bzr_name": [
+            {
+                "id": "Weißensee",
+                "plr_name": [
+                    "Behaimstraße",
+                    "Bühringstraße",
+                    "Komponistenviertel Weißensee",
+                    "Weißenseer Spitze",
+                    "Weißer See"
+                ]
+            },
+            {
+                "id": "Weißensee Ost",
+                "plr_name": [
+                    "Hansastraße",
+                    "Rathaus Weißensee"
+                ]
+            }
+        ]
+    }
+}
