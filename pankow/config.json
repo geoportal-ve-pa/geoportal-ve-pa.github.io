@@ -220,10 +220,9 @@
                     },
                     {
                         "name": "Suche (Flurstücke, Ortsteile, u.a.)",
-						"name_lang": "Stand: 05/2025",
                         "zoomLevel": 8,
                         "instances": [{
-                                "title": "Flurstücksuche",
+                                "title": "Flurstücksuche (Stand: 05/2025)",
                                 "resultDialogTitle": "Trefferliste",
                                 "requestConfig": {
                                     "restLayerId": "alkis_flurstuecke:rest:flurstuecke",
@@ -266,7 +265,7 @@
                                 }]
                             },
                             {
-                                "title": "Ortsteile",
+                                "title": "Ortsteile (Stand: 05/2025)",
                                 "resultDialogTitle": "Trefferliste",
                                 "requestConfig": {
                                     "restLayerId": "alkis_ortsteile:rest:ortsteile",
@@ -300,7 +299,7 @@
                                 }]
                             },
                             {
-                                "title": "Planungsräume",
+                                "title": "Planungsräume (Stand: 05/2025)",
                                 "resultDialogTitle": "Trefferliste",
                                 "requestConfig": {
                                     "restLayerId": "lor_2021:rest:a_lor_plr_2021",
@@ -984,6 +983,7 @@
         }
     }
 }
+
 
 
 
