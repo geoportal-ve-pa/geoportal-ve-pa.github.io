@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "test",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
-"features": [
-{ "type": "Feature", "properties": { "photo": "J:\\StreetView\\fotos\\Parkstraße-Biesenthal_2024_01_09\\GSAJ1113.JPG", "filename": "GSAJ1113", "directory": "J:\\StreetView\\fotos\\Parkstraße-Biesenthal_2024_01_09", "altitude": 95.276, "direction": null, "rotation": 0, "longitude": "13.450479", "latitude": "52.536831", "timestamp": "2024-01-09T13:02:53", "Vorschau": "https://christoph-blank.github.io/Photo-Sphere-Viewer/parkstr-BIE-2024_01_09/GSAJ0992_1.html" }, "geometry": { "type": "Point", "coordinates": [ 394903.564, 5821879.523, 95.276 ] } }
-]
-}
