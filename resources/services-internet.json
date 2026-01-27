@@ -260,6 +260,7 @@
       "transparent" : true,
       "featureCount" : "10",
       "gfiTheme" : "default",
+	  "gfiAttributes": "ignore",
       "infoFormat" : "application/json",
       "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
       "singleTile" : true
@@ -283,6 +284,7 @@
       "transparent" : true,
       "featureCount" : "10",
       "gfiTheme" : "default",
+	  "gfiAttributes": "ignore",
       "infoFormat" : "application/json",
       "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
       "singleTile" : true
@@ -306,6 +308,7 @@
       "transparent" : true,
       "featureCount" : "10",
       "gfiTheme" : "default",
+	  "gfiAttributes": "ignore",
       "infoFormat" : "application/json",
       "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
       "singleTile" : true
@@ -3742,6 +3745,7 @@
     }
 
 ]
+
 
 
 
