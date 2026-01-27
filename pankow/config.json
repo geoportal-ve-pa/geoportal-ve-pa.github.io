@@ -220,6 +220,7 @@
                     },
                     {
                         "name": "Suche (Flurstücke, Ortsteile, u.a.)",
+						"name_lang": "Stand: 05/2025",
                         "zoomLevel": 8,
                         "instances": [{
                                 "title": "Flurstücksuche",
@@ -983,6 +984,7 @@
         }
     }
 }
+
 
 
 
