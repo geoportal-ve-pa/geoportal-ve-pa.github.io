@@ -782,13 +782,11 @@
                         },
 						{
                             "id": "schu_spo_schul_öff_2023_04_17",
-                            "visibility": false,
-                            "isNeverVisibleInTree": true
+                            "visibility": false
                         },
 						{
                             "id": "schu_spo_schul_priv_2023_04_17",
-                            "visibility": false,
-                            "isNeverVisibleInTree": true
+                            "visibility": false
                         }
                     ]
                 },                
@@ -982,5 +980,6 @@
         }
     }
 }
+
 
 
