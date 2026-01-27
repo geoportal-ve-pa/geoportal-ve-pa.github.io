@@ -357,12 +357,7 @@
                         "icon": "bi-info-circle",
                         "name": "FAQ",
                         "htmlContent": "<details><summary></br><b>Leeren des Browercaches</b></summary></br><p>Manchmal verhindern im Cache des Browsers hinterlegte Dateien, dass aktuelle Inhalte der Internetseiten angezeigt werden. Stattdessen werden die im Cache gespeicherten veralteten Daten geladen. Wenn der Cache gelöscht wird, kann anschließend die neueste Version der entsprechenden Webseite geladen werden. Eine Leerung des Caches ist deswegen oft hilfreich, Fehler zu beheben und bewirkt auch, dass Internetseiten wieder schneller geladen werden.</p></details></br><details><summary></br><b>Wer ist mein Ansprechpartner?</b></summary></br><p>Für das Geoportal und den Funktionen dieses, ist die Abteilung GI zuständigt. Bei fragen oder Problemen meldet euch über die <a href=\"mailto:verm-gi@ba-pankow.berlin.de\">verm-gi@ba-pankow.berlin.de</a> bei uns. Bei Inhaltlichen fragen zu Themen die hier Präsentiert werden, ist immer die jeweilige Fachabteilung zuständig und Ansprechpartner.</p></details>"
-                    },					
-					{
-                        "type": "customMenuElement",
-                        "name": "Dienste Pankow",                        
-						"openURL": "https://geoportal.ba-pankow.verwalt-berlin.de/dienste/"
-                    }				
+                    }			
                 ],
                 [{
 						"type": "customMenuElement",
@@ -987,4 +982,5 @@
         }
     }
 }
+
 
