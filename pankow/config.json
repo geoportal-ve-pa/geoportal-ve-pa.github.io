@@ -584,6 +584,9 @@
 					{
                         "type": "addWMS"
                     },
+					{
+    					"type": "compareMaps",
+					},
                     {
                         "type": "shareView"
                     },
@@ -983,6 +986,7 @@
         }
     }
 }
+
 
 
 
