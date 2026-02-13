@@ -357,7 +357,19 @@
                         "icon": "bi-info-circle",
                         "name": "FAQ",
                         "htmlContent": "<details><summary></br><b>Leeren des Browercaches</b></summary></br><p>Manchmal verhindern im Cache des Browsers hinterlegte Dateien, dass aktuelle Inhalte der Internetseiten angezeigt werden. Stattdessen werden die im Cache gespeicherten veralteten Daten geladen. Wenn der Cache gelöscht wird, kann anschließend die neueste Version der entsprechenden Webseite geladen werden. Eine Leerung des Caches ist deswegen oft hilfreich, Fehler zu beheben und bewirkt auch, dass Internetseiten wieder schneller geladen werden.</p></details></br><details><summary></br><b>Wer ist mein Ansprechpartner?</b></summary></br><p>Für das Geoportal und den Funktionen dieses, ist die Abteilung GI zuständigt. Bei fragen oder Problemen meldet euch über die <a href=\"mailto:verm-gi@ba-pankow.berlin.de\">verm-gi@ba-pankow.berlin.de</a> bei uns. Bei Inhaltlichen fragen zu Themen die hier Präsentiert werden, ist immer die jeweilige Fachabteilung zuständig und Ansprechpartner.</p></details>"
-                    }			
+                    },
+					{
+						"type": "customMenuElement",
+						"icon": "bi-envelope",
+						"name": "QR-Code",
+						"execute": {
+						  "action": "Alerting/addSingleAlert",
+						  "payload": {
+						    "title": "QR-Code Scannen",
+						    "content": "<div><a href=\"mailto:verm-gi@ba-pankow.berlin.de?subject=Geoportal Anliegen\" style=\"background-color:white;border:2px solid steelblue;color:steelblue;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;border-radius:12px;margin-right:10px;\">verm-gi@ba-pankow.berlin.de</a><br><br><a href=\"tel:+4930902954372\" style=\"background-color:white;border:2px solid steelblue;color:steelblue;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;border-radius:12px;\">+49 30 / 90295-4372</a></div>"
+   									 }
+  								}
+					}
                 ],
                 [{
 						"type": "customMenuElement",
@@ -985,6 +997,7 @@
         }
     }
 }
+
 
 
 
