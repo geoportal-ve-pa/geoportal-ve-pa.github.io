@@ -171,7 +171,7 @@
         "featureCount": "1"
     },
   {
-        "id": "mesh_3d",
+        "id": "mesh_3d_neu",
         "name": "3D-Meshmodell (Berlin-Partner, 2025)",
         "url": "https://berlin-wab.virtualcitymap.de/datasource-data/baselayer/mesh_2025",
         "typ": "TileSet3D",
@@ -189,7 +189,7 @@
         ]
 	},
     {
-        "id": "mesh_3d_alt",
+        "id": "mesh_3d",
         "name": "3D-Meshmodell (Berlin-Partner, 2023)",
         "url": "https://berlin-wab.virtualcitymap.de/datasource-data/baselayer/mesh_2023",
         "typ": "TileSet3D",
@@ -3762,6 +3762,7 @@
     }
 
 ]
+
 
 
 
