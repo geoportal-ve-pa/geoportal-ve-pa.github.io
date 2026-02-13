@@ -170,9 +170,26 @@
         "cache": true,
         "featureCount": "1"
     },
-    
-    {
+  {
         "id": "mesh_3d",
+        "name": "3D-Meshmodell (Berlin-Partner, 2025)",
+        "url": "https://berlin-wab.virtualcitymap.de/datasource-data/baselayer/mesh_2025",
+        "typ": "TileSet3D",
+        "gfiAttributes": "ignore",
+        "legend": "./resources/leg/leg_3DMesh-Berlin.png",
+        "urlIsVisible": true,
+        "gfiTheme": "default",
+        "datasets": [
+            {
+                "md_id": "mesh_3d_2025.xml",
+                "csw_url": "../resources/metadaten/mesh_3d_2025.xml",
+                "show_doc_url": "../resources/metadaten/",
+                "md_name": "3D-Mesh Berlin 2025"
+            }
+        ]
+	},
+    {
+        "id": "mesh_3d_alt",
         "name": "3D-Meshmodell (Berlin-Partner, 2023)",
         "url": "https://berlin-wab.virtualcitymap.de/datasource-data/baselayer/mesh_2023",
         "typ": "TileSet3D",
@@ -3745,6 +3762,7 @@
     }
 
 ]
+
 
 
 
