@@ -366,7 +366,7 @@
 						  "action": "Alerting/addSingleAlert",
 						  "payload": {
 						    "title": "QR-Code Scannen",
-						    "content": "<div><img src=\"https://raw.githubusercontent.com/geoportal-ve-pa/geoportal-ve-pa.github.io/refs/heads/main/resources/img/QR_Geoportal_Pankow_Online.png\" alt=\"QR-Code Geoportal Pankow\" style=\"max-width:300px;height:auto;\" /></div>"
+						    "content": "<div style=\"text-align:center;\"><img src=\"https://raw.githubusercontent.com/geoportal-ve-pa/geoportal-ve-pa.github.io/refs/heads/main/resources/img/QR_Geoportal_Pankow_Online.png\" alt=\"QR-Code Geoportal Pankow\" style=\"max-width:300px;height:auto;\" /><br><br> geoportal-ve-pa.github.io</div>"
    									 }
   								}
 					}
@@ -997,6 +997,7 @@
         }
     }
 }
+
 
 
 
