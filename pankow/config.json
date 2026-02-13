@@ -922,7 +922,7 @@
                             "visibility": false
                         },						
                         {
-                            "id": "mesh_3d_alt",
+                            "id": "mesh_3d",
                             "visibility": true
                         },
                         {
@@ -985,6 +985,7 @@
         }
     }
 }
+
 
 
 
