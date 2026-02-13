@@ -366,7 +366,7 @@
 						  "action": "Alerting/addSingleAlert",
 						  "payload": {
 						    "title": "QR-Code Scannen",
-						    "content": "<div><a href=\"mailto:verm-gi@ba-pankow.berlin.de?subject=Geoportal Anliegen\" style=\"background-color:white;border:2px solid steelblue;color:steelblue;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;border-radius:12px;margin-right:10px;\">verm-gi@ba-pankow.berlin.de</a><br><br><a href=\"tel:+4930902954372\" style=\"background-color:white;border:2px solid steelblue;color:steelblue;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;border-radius:12px;\">+49 30 / 90295-4372</a></div>"
+						    "content": "<img src="@/assets/img/QR_Geoportal_Pankow_Online.png" />"
    									 }
   								}
 					}
@@ -997,6 +997,7 @@
         }
     }
 }
+
 
 
 
