@@ -923,7 +923,6 @@
                         },						
                         {
                             "id": "mesh_3d",
-                            "name": "Texturiertes Oberflächenmodell (3D-Mesh, 2023)",
                             "visibility": true
                         },
                         {
@@ -986,6 +985,7 @@
         }
     }
 }
+
 
 
 
