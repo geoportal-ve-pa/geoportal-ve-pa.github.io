@@ -982,6 +982,12 @@
                             "visibility": false,
 							"isNeverVisibleInTree": true
                         },
+						{
+                            "id": "mapillary_images",
+                            "name": "Mapillary",
+                            "visibility": false
+                        },
+						
                         {
                             "id": "maske",
                             "visibility": true,
@@ -997,6 +1003,7 @@
         }
     }
 }
+
 
 
 
