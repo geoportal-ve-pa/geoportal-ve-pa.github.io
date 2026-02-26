@@ -985,7 +985,8 @@
 						{
                             "id": "mapillary_images",
                             "name": "Mapillary",
-                            "visibility": false
+                            "visibility": false,
+							"isNeverVisibleInTree": true
                         },
 						
                         {
@@ -1003,6 +1004,7 @@
         }
     }
 }
+
 
 
 
