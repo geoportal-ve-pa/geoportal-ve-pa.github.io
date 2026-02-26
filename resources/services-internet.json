@@ -3759,9 +3759,41 @@
                 "show_doc_url": "https://gdz.bkg.bund.de/index.php/default/wmts-basemapde-webraster-wmts-basemapde-webraster.html#"
             }
         ]
+    },
+{
+	"id": "mapillary_images",
+    "name": "Mapillary Bilder",
+    "url": "https://tiles.mapillary.com{z}/{x}/{y}",
+    "typ": "VectorTile",
+    "vtStyle": {
+        "version": 8,
+        "sources": {
+            "mapillary": {
+                "type": "vector",
+                "tiles": ["https://tiles.mapillary.com{z}/{x}/{y}"],
+                "minzoom": 0,
+                "maxzoom": 16
+            }
+        },
+        "layers": [
+            {
+                "id": "mapillary-images",
+                "type": "circle",
+                "source": "mapillary",
+                "source-layer": "sequence",
+                "paint": {
+                    "circle-color": "#05cb63",
+                    "circle-radius": 3
+                }
+            }
+        ]
     }
+  
+}
+
 
 ]
+
 
 
 
