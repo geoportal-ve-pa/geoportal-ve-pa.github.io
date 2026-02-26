@@ -360,7 +360,7 @@
                     },
 					{
 						"type": "customMenuElement",
-						"icon": "bi-info-circle",
+						"icon": "bi-qr-code-scan",
 						"name": "QR-Code",
 						"execute": {
 						  "action": "Alerting/addSingleAlert",
@@ -1004,6 +1004,7 @@
         }
     }
 }
+
 
 
 
