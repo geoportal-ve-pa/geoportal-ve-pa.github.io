@@ -23,8 +23,14 @@
     "url": "/bkg_geosearch",
     "typ": "GDZ"
   },
+	{
+    "id": "mapfish_printservice_id",
+    "name": "Mapfish Print Service",
+    "url" : "https://api.viz.berlin.de/print/",
+    "typ" : "PrintService"
+  }
   {
-	"id": "mapfish_printservice_id",	 
+	"id": "mapfish_printservice_id_alt",	 
 	"name": "Mapfish Print Service",
 	"url" : "https://gdi.berlin.de/services/printing/",
 	"typ" : "PrintService"
