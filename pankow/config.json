@@ -418,157 +418,47 @@
                             "minute": "0"
                         }
                     },
-
-
-
-
-					
-					{
-                        "icon": "bi-signpost-2-fill",
-                        "activeRoutingToolOption": "DIRECTIONS",
-                        "routingToolOptions": [
-                            "DIRECTIONS",
-                            "ISOCHRONES"
-                        ],
-                        "download": {
-                            "filename": "",
-                            "format": "GEOJSON"
-                        },
+{
+                        "icon": "bi-geo",
                         "geosearch": {
-                            "minChars": 3,
-                            "limit": 10,
                             "type": "BKG",
-                            "serviceId": "bkg_geosearch"
+                            "serviceId": "5",
+                            "filter": "filter=(typ:*)"
                         },
                         "geosearchReverse": {
-                            "distance": 1000,
-                            "filter": "typ:strasse",
                             "type": "BKG",
-                            "serviceId": "bkg_reverse"
+                            "serviceId": "5",
+                            "filter": "filter=(typ:*)"
                         },
                         "directionsSettings": {
                             "type": "ORS",
                             "serviceId": "bkg_ors",
                             "speedProfile": "CAR",
-                            "preference": "RECOMMENDED",
-                            "styleRoute": {
-                                "fillColor": [
-                                    255,
-                                    44,
-                                    0
-                                ],
-                                "width": 6,
-                                "highlightColor": [
-                                    255,
-                                    255,
-                                    255
-                                ],
-                                "highlightWidth": 9,
-                                "partHighlightColor": [
-                                    255,
-                                    255,
-                                    255
-                                ],
-                                "partHighlightWidth": 3
-                            },
-                            "styleWaypoint": {
-                                "lineColor": [
-                                    255,
-                                    127,
-                                    0
-                                ],
-                                "lineWidth": 4,
-                                "fillColor": [
-                                    255,
-                                    127,
-                                    0
-                                ],
-                                "textFillColor": "#000",
-                                "textLineColor": "#fff",
-                                "textLineWidth": 3,
-                                "opacity": 0.3,
-                                "radius": 8
-                            },
-                            "styleAvoidAreas": {
-                                "lineColor": [
-                                    0,
-                                    127,
-                                    255
-                                ],
-                                "lineWidth": 2,
-                                "fillColor": [
-                                    0,
-                                    127,
-                                    255
-                                ],
-                                "opacity": 0.3,
-                                "pointRadius": 8,
-                                "pointLineWidth": 4
-                            },
                             "batchProcessing": {
-                                "enabled": false,
-                                "active": false,
-                                "limit": 1000,
-                                "maximumConcurrentRequests": 3
+                                "enabled": true,
+                                "active": false
                             }
                         },
                         "isochronesSettings": {
                             "type": "ORS",
                             "serviceId": "bkg_ors",
                             "speedProfile": "CAR",
-                            "isochronesMethodOption": "TIME",
-                            "distanceValue": 30,
+                            "batchProcessing": {
+                                "enabled": true,
+                                "active": false
+                            },
+                            "distanceValue": 5,
                             "minDistance": 1,
-                            "maxDistance": 400,
+                            "maxDistance": 100,
                             "timeValue": 30,
                             "minTime": 1,
                             "maxTime": 180,
                             "intervalValue": 15,
-                            "minInterval": 3,
-                            "maxInterval": 30,
-                            "styleCenter": {
-                                "lineColor": [
-                                    255,
-                                    127,
-                                    0
-                                ],
-                                "lineWidth": 4,
-                                "fillColor": [
-                                    255,
-                                    127,
-                                    0
-                                ],
-                                "opacity": 0.3,
-                                "radius": 8
-                            },
-                            "styleIsochrones": {
-                                "lineWidth": 2,
-                                "opacity": 0.65,
-                                "startColor": [
-                                    66,
-                                    245,
-                                    78
-                                ],
-                                "endColor": [
-                                    245,
-                                    66,
-                                    66
-                                ]
-                            },
-                            "batchProcessing": {
-                                "enabled": false,
-                                "active": false,
-                                "limit": 1000,
-                                "maximumConcurrentRequests": 3
-                            }
+                            "minInterval": 1,
+                            "maxInterval": 30
                         },
                         "type": "routing"
-                    },
-
-
-
-					
-					
+                    },				
                     {
                         "type": "legend"
                     },
