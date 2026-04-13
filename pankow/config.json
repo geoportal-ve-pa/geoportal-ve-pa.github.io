@@ -463,19 +463,18 @@
                         "type": "legend"
                     },
 					{
-                        "type": "print",
                         "name": "Karte drucken",
                         "printServiceId": "mapfish_printservice_id",
-                        "printAppId": "gdibe",
+                        "printAppId": "dps",
                         "filename": "Print",
-                        "title": "Mein Titel",
-                        "currentLayoutName": "A4 quer",
+                        "title": "Digitale Plattform Stadtverkehr",
                         "version": "mapfish_print_3",
                         "isLegendSelected": false,
                         "gfi": false,
                         "legendText": "Legende",
-                        "dpiForPdf": 90
-                    },                   
+                        "dpiForPdf": 90,
+                        "type": "print"
+                    },                  
                     {
                         "type": "filter",
                         "name": "Filterthemen",
