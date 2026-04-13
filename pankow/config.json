@@ -463,18 +463,19 @@
                         "type": "legend"
                     },
 					{
+                        "type": "print",
                         "name": "Karte drucken",
                         "printServiceId": "mapfish_printservice_id",
-                        "printAppId": "dps",
+                        "printAppId": "gdibe",
                         "filename": "Print",
                         "title": "Mein Titel",
+                        "currentLayoutName": "A4 quer",
                         "version": "mapfish_print_3",
                         "isLegendSelected": false,
                         "gfi": false,
                         "legendText": "Legende",
-                        "dpiForPdf": 90,
-                        "type": "print"
-                    },                    
+                        "dpiForPdf": 90
+                    },                   
                     {
                         "type": "filter",
                         "name": "Filterthemen",
