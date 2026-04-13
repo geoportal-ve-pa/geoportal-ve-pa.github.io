@@ -27,9 +27,5 @@ const Config = {
         },
         fallbackLanguage: "de",
         changeLanguageOnStartWhen: ["querystring", "localStorage", "htmlTag"]
-    },
-	    bkgSession: {
-        appId: "8d2cf7fe-14c0-675a-3c60-5af92cfa13d6",
-        serviceId: "bkg_ors"
     }
 };
