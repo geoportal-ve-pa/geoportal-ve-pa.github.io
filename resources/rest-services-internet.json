@@ -28,7 +28,7 @@
     "name": "Mapfish Print Service",
     "url" : "https://api.viz.berlin.de/print/",
     "typ" : "PrintService"
-  }
+  },
   {
 	"id": "mapfish_printservice_id_alt",	 
 	"name": "Mapfish Print Service",
