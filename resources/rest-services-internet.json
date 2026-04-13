@@ -30,17 +30,11 @@
 	"typ" : "PrintService"
   },  
   {
-	"id": "bkg_ors_alt",
+	"id": "bkg_ors",
 	"name": "BKG OpenRoute",
 	"url": "https://sg.geodatenzentrum.de/web_ors_all__434a1079-7c34-8673-7b50-5b892cfa13d6",
 	"typ": "GDZ"
   },	
-	{
-    "id": "bkg_ors",
-    "name": "BKG Routing Service",
-    "url" : "https://sgx.geodatenzentrum.de/web_ors_all",
-    "typ" : "RoutingService"
-  },
   {
     "id": "bkgors_alternative",
     "name": "BKG OpenRoute",
