@@ -474,7 +474,7 @@
                         "isLegendSelected": false,
                         "gfi": false,
                         "legendText": "Legende",
-                        "dpiForPdf": 90
+                        "dpiForPdf": 300
                     },
                     {
                         "type": "filter",
