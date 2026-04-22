@@ -3802,8 +3802,6 @@
     "typ": "GeoTiff",
     "name": "3-8",
     "visibility": true,
-    "styleId": "GeoTiffStyle",
-    "crs": "EPSG:25833",
     "sources": [
         { "url": "https://raw.githubusercontent.com/geoportal-ve-pa/geoportal-ve-pa.github.io/refs/heads/main/resources/img/bplan/prenzlauer_berg/3-8.tif", "min": -10, "max": 60 }
     ],
