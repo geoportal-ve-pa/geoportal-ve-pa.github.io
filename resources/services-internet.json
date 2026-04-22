@@ -3791,11 +3791,26 @@
   
 },
 {
-    "id": "bplan_prenzl_berg_3-8",
+    "id": "bplan_prenzl_berg_3-8_1",
     "typ": "GeoTiff",
     "urls": ["https://raw.githubusercontent.com/geoportal-ve-pa/geoportal-ve-pa.github.io/refs/heads/main/resources/img/bplan/prenzlauer_berg/3-14.tif"],	
     "name": "3-8",
     "visibility": true
+},
+{
+    "id": "bplan_prenzl_berg_3-8",
+    "typ": "GeoTiff",
+    "name": "3-8",
+    "visibility": true,
+    "styleId": "GeoTiffStyle",
+    "crs": "EPSG:25833",
+    "sources": [
+        { "url": "https://raw.githubusercontent.com/geoportal-ve-pa/geoportal-ve-pa.github.io/refs/heads/main/resources/img/bplan/prenzlauer_berg/3-14.tif", "min": -10, "max": 60 }
+    ],
+    "olSourceOptions": {
+        "convertToRGB": false,
+        "normalize": true
+    }
 }
 
 
