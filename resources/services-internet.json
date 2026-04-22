@@ -3793,7 +3793,7 @@
 {
     "id": "bplan_prenzl_berg_3-8",
     "typ": "GeoTiff",
-    "urls": ["https://openlayers.org/en/latest/examples/data/example.tif"],
+    "urls": ["https://github.com/geoportal-ve-pa/geoportal-ve-pa.github.io/raw/refs/heads/main/resources/img/bplan/prenzlauer_berg/3-14.tif"],	
     "name": "3-8",
     "visibility": true,
 }
