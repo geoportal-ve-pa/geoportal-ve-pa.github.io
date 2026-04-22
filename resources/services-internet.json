@@ -3789,6 +3789,13 @@
         ]
     }
   
+},
+{
+    "id": "bplan_prenzl_berg_3-8",
+    "typ": "GeoTiff",
+    "urls": ["https://openlayers.org/en/latest/examples/data/example.tif"],
+    "name": "3-8",
+    "visibility": true,
 }
 
 
