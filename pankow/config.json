@@ -806,21 +806,7 @@
                             "visibility": false
                         }
                     ]
-                },
-				{
-                    "name": "Bebauungspläne",
-                    "type": "folder",
-                    "elements": [{
-                            "name": "Prenzlauer Berg",
-                            "type": "folder",
-                            "elements": [{
-                                    "id": "bplan_prenzl_berg_3-8",
-                                    "visibility": false
-                                }
-                            ]
-                        }                        
-                    ]
-                },
+                },				
                 {
                     "name": "ALKIS",
                     "type": "folder",
