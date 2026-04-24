@@ -314,6 +314,7 @@
       "typ" : "WMS",
       "layers" : "ortsteile",
       "legend" : true,
+	  "isSecured" : true,
       "datasets" : [
          {
             "md_id" : "0a7c53a5-b29d-3f45-9734-1c811045e6c2",
