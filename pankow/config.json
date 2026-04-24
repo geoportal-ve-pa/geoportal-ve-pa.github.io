@@ -975,6 +975,12 @@
                             ]
                         },
                         {
+                            "id": "DWD_RV-Produkt",
+                            "name": "DWD Niederschlagsradar",
+                            "visibility": false,
+                            "autoRefresh": "600000"
+                        },
+                        {
                             "id": "360grad",
                             "name": "360 Grad Fotos",
                             "styleId": "360grad",
