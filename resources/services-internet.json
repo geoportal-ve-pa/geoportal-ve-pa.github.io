@@ -3790,7 +3790,38 @@
         ]
     }
   
-}
+},
+{
+    "id": "DWD_RV-Produkt",
+    "name": "DWD Niederschlagsradar",
+    "url": "https://maps.dwd.de/geoserver/dwd/wms",
+    "typ": "WMS",
+    "layers": "Niederschlagsradar",
+    "format": "image/png",
+    "version": "1.1.1",
+    "singleTile": false,
+    "transparent": true,
+    "transparency": 50,
+    "tilesize": "512",
+    "time": true,
+    "dimensionName": "REFERENCE_TIME",
+    "gutter": "0",
+    "minScale": "0",
+    "maxScale": "2500000",
+    "gfiAttributes": "ignore",
+    "gfiTheme": "default",
+    "cache": true,
+    "featureCount": "1",
+    "epsg": "EPSG:25833",
+    "legend": "https://maps.dwd.de/geoserver/ows?service=WMS&version=1.1.1&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=dwd%3ANiederschlagsradar",
+    "datasets": [
+      {
+        "md_id": "dwd_rv_produkt",
+        "md_name": "Niederschlagsradar",
+        "csw_url": "https://api.viz.berlin.de/csw"
+      }
+    ]
+  }
 
 
 ]
