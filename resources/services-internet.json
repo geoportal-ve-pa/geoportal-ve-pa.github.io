@@ -731,7 +731,28 @@
       "gfiAttributes" : "ignore",
       "layerAttribution" : "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.",
       "singleTile" : true
-   },    
+   },
+	{
+      "id" : "intranet:truedop10_2025:2025_TrueDOP10_rgb_sommer",
+      "name" : "Digitale farbige TrueOrthophotos 2025 (TrueDOP10RGB)",
+      "crs" : "EPSG:25833",
+      "url" : "https://gdi.senstadt.verwalt-berlin.de/services/wms/truedop10_2025",
+      "typ" : "WMS",
+      "layers" : "2025_TrueDOP10_rgb_sommer",
+      "legend" : true,
+      "datasets" : [
+         {
+            "md_id" : "4c5e04aa-ebd5-4720-a364-082112c30650",
+            "csw_url" : "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+         }
+      ],
+      "format" : "image/png",
+      "version" : "1.3.0",
+      "transparent" : true,
+      "gfiAttributes" : "ignore",
+      "layerAttribution" : "Daten für den Dienstgebrauch zur Wahrnehmung von gesetzlichen Aufgaben.",
+      "singleTile" : true
+   },
           {
         "id": "schu_spo_einschul",
         "name": "Einschulbereiche",
