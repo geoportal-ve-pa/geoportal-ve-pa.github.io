@@ -926,11 +926,6 @@
                             "id": "Luft_2025",
                             "name": "Luftbild 2025",
                             "visibility": false
-                        },
-						{
-                            "id": "intranet:truedop10_2025:2025_TrueDOP10_rgb_sommer",
-                            "name": "Luftbild 2025 10cm genau",
-                            "visibility": false
                         }
 						
                     ]
