@@ -1,0 +1,1 @@
+import{Kt as e}from"./masterportal.js";import{t}from"./pako.esm.js";var n=class extends e{decodeBlock(e){return t(new Uint8Array(e)).buffer}};export{n as default};
